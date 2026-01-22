@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hyperliquid Top Traders</title>
+    <title>하이퍼리퀴드 탑 트레이더</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
         }
 
         body {
-            background: #0a0a0f;
+            background: #000000;
             color: #e4e4e7;
             font-family: 'Noto Sans KR', sans-serif;
             min-height: 100vh;
@@ -52,7 +52,7 @@
         .tabs {
             display: flex;
             gap: 4px;
-            background: #18181b;
+            background: #111111;
             padding: 4px;
             border-radius: 10px;
         }
@@ -86,8 +86,8 @@
         }
 
         .trader-card {
-            background: linear-gradient(180deg, #111118 0%, #0d0d12 100%);
-            border: 1px solid #27272a;
+            background: linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
+            border: 1px solid #222222;
             border-radius: 12px;
             overflow: hidden;
         }
@@ -186,9 +186,9 @@
 
         .positions {
             display: none;
-            border-top: 1px solid #27272a;
+            border-top: 1px solid #222222;
             padding: 12px 16px;
-            background: rgba(0, 0, 0, 0.2);
+            background: rgba(0, 0, 0, 0.3);
         }
 
         .trader-card.expanded .positions {
@@ -204,7 +204,7 @@
             color: #52525b;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            border-bottom: 1px solid #27272a;
+            border-bottom: 1px solid #222222;
         }
 
         .position-row {
@@ -483,7 +483,7 @@
         async function loadData() {
             try {
                 const response = await fetch('data.json');
-                if (!response.ok) throw new Error('Data not found');
+                if (!response.ok) throw new Error('data.json not found (HTTP ' + response.status + ')');
                 data = await response.json();
                 
                 // Render initial view
@@ -503,7 +503,7 @@
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('traders-list').innerHTML = 
-                    '<div class="error">Failed to load data</div>';
+                    `<div class="error">Failed to load data: ${error.message}<br><br>Make sure data.json exists and GitHub Actions has run.</div>`;
             }
         }
 
