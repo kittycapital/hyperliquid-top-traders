@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>하이퍼리퀴드 탑 트레이더</title>
+    <title>Hyperliquid 탑 트레이더</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {
             margin: 0;
@@ -79,6 +80,102 @@
             color: #0a0a0f;
         }
 
+        /* Chart Section */
+        .chart-section {
+            background: linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
+            border: 1px solid #222222;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .chart-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .toggle-buttons {
+            display: flex;
+            gap: 4px;
+            background: #111111;
+            padding: 3px;
+            border-radius: 8px;
+        }
+
+        .toggle-btn {
+            padding: 6px 16px;
+            border-radius: 6px;
+            border: none;
+            background: transparent;
+            color: #71717a;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .toggle-btn:hover {
+            color: #a1a1aa;
+        }
+
+        .toggle-btn.active {
+            background: #22d3ee;
+            color: #0a0a0f;
+        }
+
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 16px;
+            font-size: 0.75rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+        }
+
+        .legend-color.long {
+            background: #22c55e;
+        }
+
+        .legend-color.short {
+            background: #ef4444;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 600px;
+        }
+
+        /* Section Title */
+        .section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+
+        /* Traders List */
         .traders-list {
             display: flex;
             flex-direction: column;
@@ -291,6 +388,11 @@
                 align-items: flex-start;
             }
 
+            .chart-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
             .trader-header {
                 flex-direction: column;
                 align-items: flex-start;
@@ -311,6 +413,10 @@
             .stat-value {
                 font-size: 0.8rem;
             }
+
+            .chart-container {
+                height: 500px;
+            }
         }
     </style>
 </head>
@@ -318,17 +424,43 @@
     <div class="container">
         <div class="header">
             <div class="title-section">
-                <h1>Hyperliquid Top Traders</h1>
-                <p>Top 10 traders by PnL with open positions</p>
+                <h1>Hyperliquid 탑 트레이더</h1>
+                <p>상위 10명의 트레이더 수익 및 오픈 포지션</p>
             </div>
             <div class="tabs">
-                <button class="tab active" data-period="daily">Daily</button>
-                <button class="tab" data-period="weekly">Weekly</button>
+                <button class="tab active" data-period="daily">일간</button>
+                <button class="tab" data-period="weekly">주간</button>
             </div>
         </div>
 
+        <!-- Position Aggregation Chart -->
+        <div class="chart-section">
+            <div class="chart-header">
+                <div class="chart-title">포지션 집계</div>
+                <div class="toggle-buttons">
+                    <button class="toggle-btn active" data-mode="value">금액 ($)</button>
+                    <button class="toggle-btn" data-mode="size">수량</button>
+                </div>
+            </div>
+            <div class="chart-legend">
+                <div class="legend-item">
+                    <div class="legend-color short"></div>
+                    <span>숏</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color long"></div>
+                    <span>롱</span>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="positionChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Trader Rankings -->
+        <div class="section-title">트레이더 순위</div>
         <div class="traders-list" id="traders-list">
-            <div class="loading">Loading data...</div>
+            <div class="loading">데이터 로딩 중...</div>
         </div>
 
         <div class="last-updated" id="last-updated"></div>
@@ -337,10 +469,14 @@
     <script>
         let data = null;
         let currentPeriod = 'daily';
+        let currentMode = 'value';
+        let positionChart = null;
 
         function formatCurrency(value, compact = false) {
             const num = parseFloat(value) || 0;
-            if (compact && Math.abs(num) >= 1000000) {
+            if (compact && Math.abs(num) >= 1000000000) {
+                return '$' + (num / 1000000000).toFixed(2) + 'B';
+            } else if (compact && Math.abs(num) >= 1000000) {
                 return '$' + (num / 1000000).toFixed(2) + 'M';
             } else if (compact && Math.abs(num) >= 1000) {
                 return '$' + (num / 1000).toFixed(1) + 'K';
@@ -351,6 +487,18 @@
                 minimumFractionDigits: 0,
                 maximumFractionDigits: 0
             }).format(num);
+        }
+
+        function formatNumber(value) {
+            const num = parseFloat(value) || 0;
+            if (Math.abs(num) >= 1000000000) {
+                return (num / 1000000000).toFixed(2) + 'B';
+            } else if (Math.abs(num) >= 1000000) {
+                return (num / 1000000).toFixed(2) + 'M';
+            } else if (Math.abs(num) >= 1000) {
+                return (num / 1000).toFixed(1) + 'K';
+            }
+            return num.toFixed(2);
         }
 
         function formatPercent(value) {
@@ -386,11 +534,183 @@
             }
         }
 
+        function aggregatePositions(traders) {
+            const aggregated = {};
+
+            traders.forEach(trader => {
+                if (!trader.positions) return;
+                
+                trader.positions.forEach(pos => {
+                    const coin = pos.coin;
+                    if (!aggregated[coin]) {
+                        aggregated[coin] = {
+                            longValue: 0,
+                            shortValue: 0,
+                            longSize: 0,
+                            shortSize: 0
+                        };
+                    }
+
+                    const posValue = parseFloat(pos.positionValue) || 0;
+                    const size = parseFloat(pos.size) || 0;
+
+                    if (pos.direction === 'Long') {
+                        aggregated[coin].longValue += posValue;
+                        aggregated[coin].longSize += size;
+                    } else {
+                        aggregated[coin].shortValue += posValue;
+                        aggregated[coin].shortSize += size;
+                    }
+                });
+            });
+
+            // Convert to array and sort by total value
+            const result = Object.entries(aggregated).map(([coin, data]) => ({
+                coin,
+                ...data,
+                totalValue: data.longValue + data.shortValue,
+                totalSize: data.longSize + data.shortSize
+            }));
+
+            result.sort((a, b) => b.totalValue - a.totalValue);
+
+            return result.slice(0, 20);
+        }
+
+        function renderChart(traders) {
+            const aggregated = aggregatePositions(traders);
+            
+            if (aggregated.length === 0) {
+                return;
+            }
+
+            const labels = aggregated.map(d => d.coin);
+            const longData = aggregated.map(d => currentMode === 'value' ? d.longValue : d.longSize);
+            const shortData = aggregated.map(d => currentMode === 'value' ? -d.shortValue : -d.shortSize);
+
+            const ctx = document.getElementById('positionChart').getContext('2d');
+
+            if (positionChart) {
+                positionChart.destroy();
+            }
+
+            positionChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '숏',
+                            data: shortData,
+                            backgroundColor: '#ef4444',
+                            borderRadius: 4
+                        },
+                        {
+                            label: '롱',
+                            data: longData,
+                            backgroundColor: '#22c55e',
+                            borderRadius: 4
+                        }
+                    ]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: '#1a1a1a',
+                            titleColor: '#ffffff',
+                            bodyColor: '#a1a1aa',
+                            borderColor: '#333333',
+                            borderWidth: 1,
+                            padding: 12,
+                            callbacks: {
+                                label: function(context) {
+                                    const dataIndex = context.dataIndex;
+                                    const coinData = aggregated[dataIndex];
+                                    const isValue = currentMode === 'value';
+                                    
+                                    if (context.dataset.label === '롱') {
+                                        return isValue 
+                                            ? `롱: ${formatCurrency(coinData.longValue, true)}`
+                                            : `롱: ${formatNumber(coinData.longSize)}`;
+                                    } else {
+                                        return isValue 
+                                            ? `숏: ${formatCurrency(coinData.shortValue, true)}`
+                                            : `숏: ${formatNumber(coinData.shortSize)}`;
+                                    }
+                                },
+                                afterBody: function(context) {
+                                    const dataIndex = context[0].dataIndex;
+                                    const coinData = aggregated[dataIndex];
+                                    const isValue = currentMode === 'value';
+                                    const net = isValue 
+                                        ? coinData.longValue - coinData.shortValue
+                                        : coinData.longSize - coinData.shortSize;
+                                    const netLabel = net >= 0 ? '순 롱' : '순 숏';
+                                    const netValue = isValue 
+                                        ? formatCurrency(Math.abs(net), true)
+                                        : formatNumber(Math.abs(net));
+                                    return `${netLabel}: ${netValue}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                            grid: {
+                                color: '#222222'
+                            },
+                            ticks: {
+                                color: '#71717a',
+                                font: {
+                                    family: "'JetBrains Mono', monospace",
+                                    size: 10
+                                },
+                                callback: function(value) {
+                                    const absValue = Math.abs(value);
+                                    if (currentMode === 'value') {
+                                        if (absValue >= 1000000000) return '$' + (absValue / 1000000000).toFixed(1) + 'B';
+                                        if (absValue >= 1000000) return '$' + (absValue / 1000000).toFixed(0) + 'M';
+                                        if (absValue >= 1000) return '$' + (absValue / 1000).toFixed(0) + 'K';
+                                        return '$' + absValue;
+                                    } else {
+                                        if (absValue >= 1000000) return (absValue / 1000000).toFixed(1) + 'M';
+                                        if (absValue >= 1000) return (absValue / 1000).toFixed(0) + 'K';
+                                        return absValue;
+                                    }
+                                }
+                            }
+                        },
+                        y: {
+                            stacked: true,
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#e4e4e7',
+                                font: {
+                                    family: "'JetBrains Mono', monospace",
+                                    size: 11,
+                                    weight: 600
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
         function renderTraders(traders) {
             const container = document.getElementById('traders-list');
             
             if (!traders || traders.length === 0) {
-                container.innerHTML = '<div class="error">No trader data available</div>';
+                container.innerHTML = '<div class="error">트레이더 데이터가 없습니다</div>';
                 return;
             }
 
@@ -403,19 +723,19 @@
                 const positionsHtml = trader.positions && trader.positions.length > 0
                     ? `
                         <div class="positions-header">
-                            <div>Coin</div>
-                            <div>Side</div>
-                            <div>Lev</div>
-                            <div>Entry</div>
-                            <div>Size</div>
-                            <div>uPnL</div>
+                            <div>코인</div>
+                            <div>방향</div>
+                            <div>레버리지</div>
+                            <div>진입가</div>
+                            <div>수량</div>
+                            <div>미실현</div>
                         </div>
                         ${trader.positions.map(pos => {
                             const uPnl = parseFloat(pos.unrealizedPnl) || 0;
                             return `
                                 <div class="position-row">
                                     <div class="position-coin">${pos.coin}</div>
-                                    <div class="position-direction ${pos.direction.toLowerCase()}">${pos.direction}</div>
+                                    <div class="position-direction ${pos.direction.toLowerCase()}">${pos.direction === 'Long' ? '롱' : '숏'}</div>
                                     <div class="position-leverage">${pos.leverage}x</div>
                                     <div class="position-entry">${formatPrice(pos.entryPx)}</div>
                                     <div class="position-size">${formatSize(pos.size, pos.coin)}</div>
@@ -424,7 +744,7 @@
                             `;
                         }).join('')}
                     `
-                    : '<div class="no-positions">No open positions</div>';
+                    : '<div class="no-positions">오픈 포지션 없음</div>';
 
                 return `
                     <div class="trader-card" data-index="${index}">
@@ -438,11 +758,11 @@
                             </div>
                             <div class="trader-stats">
                                 <div class="stat">
-                                    <div class="stat-label">PnL</div>
+                                    <div class="stat-label">수익</div>
                                     <div class="stat-value ${isPositive ? 'positive' : 'negative'}">${formatCurrency(pnl, true)}</div>
                                 </div>
                                 <div class="stat">
-                                    <div class="stat-label">ROI</div>
+                                    <div class="stat-label">수익률</div>
                                     <div class="stat-value ${isPositive ? 'positive' : 'negative'}">${formatPercent(roi)}</div>
                                 </div>
                                 <svg class="expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -473,37 +793,49 @@
                 tab.classList.toggle('active', tab.dataset.period === period);
             });
             
-            // Render traders for selected period
+            // Render for selected period
             if (data) {
                 const traders = period === 'daily' ? data.daily : data.weekly;
+                renderChart(traders);
                 renderTraders(traders);
+            }
+        }
+
+        function switchMode(mode) {
+            currentMode = mode;
+            
+            // Update toggle buttons
+            document.querySelectorAll('.toggle-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.mode === mode);
+            });
+            
+            // Re-render chart
+            if (data) {
+                const traders = currentPeriod === 'daily' ? data.daily : data.weekly;
+                renderChart(traders);
             }
         }
 
         async function loadData() {
             try {
                 const response = await fetch('data.json');
-                if (!response.ok) throw new Error('data.json not found (HTTP ' + response.status + ')');
+                if (!response.ok) throw new Error('data.json을 찾을 수 없습니다 (HTTP ' + response.status + ')');
                 data = await response.json();
                 
                 // Render initial view
+                renderChart(data.daily);
                 renderTraders(data.daily);
                 
                 // Update timestamp
                 if (data.lastUpdated) {
+                    const date = new Date(data.lastUpdated);
                     document.getElementById('last-updated').textContent = 
-                        `Last updated: ${new Date(data.lastUpdated).toLocaleString('en-US', {
-                            year: 'numeric',
-                            month: 'short',
-                            day: 'numeric',
-                            hour: '2-digit',
-                            minute: '2-digit'
-                        })}`;
+                        `마지막 업데이트: ${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`;
                 }
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('traders-list').innerHTML = 
-                    `<div class="error">Failed to load data: ${error.message}<br><br>Make sure data.json exists and GitHub Actions has run.</div>`;
+                    `<div class="error">데이터 로딩 실패: ${error.message}<br><br>data.json 파일이 존재하고 GitHub Actions가 실행되었는지 확인하세요.</div>`;
             }
         }
 
@@ -511,6 +843,13 @@
         document.querySelectorAll('.tab').forEach(tab => {
             tab.addEventListener('click', () => {
                 switchPeriod(tab.dataset.period);
+            });
+        });
+
+        // Toggle button handlers
+        document.querySelectorAll('.toggle-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                switchMode(btn.dataset.mode);
             });
         });
 
