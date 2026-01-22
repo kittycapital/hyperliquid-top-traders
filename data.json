@@ -1,0 +1,246 @@
+{
+  "daily": [
+    {
+      "rank": 1,
+      "address": "0x87f9cd15f5050a9283b8896300f7c8cf69ece2cf",
+      "displayName": "HyperWhale",
+      "accountValue": 74160689.73,
+      "pnl": 1988395.82,
+      "roi": 0.0338,
+      "volume": 125000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Long", "size": 125.5, "entryPx": "104250", "leverage": 5, "leverageType": "cross", "positionValue": "13083375", "unrealizedPnl": "245000", "returnOnEquity": "0.12", "liquidationPx": "82000"},
+        {"coin": "ETH", "direction": "Short", "size": 2500, "entryPx": "3420", "leverage": 10, "leverageType": "cross", "positionValue": "8550000", "unrealizedPnl": "-42000", "returnOnEquity": "-0.05", "liquidationPx": "4100"}
+      ]
+    },
+    {
+      "rank": 2,
+      "address": "0x2a3f87c29e3d5f8a1b4c6e7d9f0a2b3c4d5e6f7a",
+      "displayName": null,
+      "accountValue": 28500000,
+      "pnl": 1245000,
+      "roi": 0.0437,
+      "volume": 89000000,
+      "positions": [
+        {"coin": "SOL", "direction": "Long", "size": 85000, "entryPx": "245", "leverage": 3, "leverageType": "cross", "positionValue": "20825000", "unrealizedPnl": "890000", "returnOnEquity": "0.15", "liquidationPx": "165"}
+      ]
+    },
+    {
+      "rank": 3,
+      "address": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+      "displayName": "DeFiKing",
+      "accountValue": 15200000,
+      "pnl": 892000,
+      "roi": 0.0587,
+      "volume": 45000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Long", "size": 45.2, "entryPx": "103800", "leverage": 10, "leverageType": "isolated", "positionValue": "4691760", "unrealizedPnl": "156000", "returnOnEquity": "0.33", "liquidationPx": "94500"},
+        {"coin": "DOGE", "direction": "Long", "size": 12500000, "entryPx": "0.42", "leverage": 5, "leverageType": "cross", "positionValue": "5250000", "unrealizedPnl": "125000", "returnOnEquity": "0.12", "liquidationPx": "0.34"},
+        {"coin": "LINK", "direction": "Short", "size": 150000, "entryPx": "28.5", "leverage": 3, "leverageType": "cross", "positionValue": "4275000", "unrealizedPnl": "-45000", "returnOnEquity": "-0.03", "liquidationPx": "38.2"}
+      ]
+    },
+    {
+      "rank": 4,
+      "address": "0x4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d",
+      "displayName": "CryptoNinja",
+      "accountValue": 8900000,
+      "pnl": 567000,
+      "roi": 0.0637,
+      "volume": 32000000,
+      "positions": []
+    },
+    {
+      "rank": 5,
+      "address": "0x5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+      "displayName": null,
+      "accountValue": 12400000,
+      "pnl": 445000,
+      "roi": 0.0359,
+      "volume": 28000000,
+      "positions": [
+        {"coin": "ETH", "direction": "Long", "size": 1850, "entryPx": "3380", "leverage": 5, "leverageType": "cross", "positionValue": "6253000", "unrealizedPnl": "89000", "returnOnEquity": "0.07", "liquidationPx": "2750"}
+      ]
+    },
+    {
+      "rank": 6,
+      "address": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+      "displayName": "AlphaTrader",
+      "accountValue": 5600000,
+      "pnl": 334000,
+      "roi": 0.0596,
+      "volume": 18000000,
+      "positions": [
+        {"coin": "ARB", "direction": "Long", "size": 2500000, "entryPx": "1.85", "leverage": 3, "leverageType": "cross", "positionValue": "4625000", "unrealizedPnl": "67000", "returnOnEquity": "0.04", "liquidationPx": "1.25"}
+      ]
+    },
+    {
+      "rank": 7,
+      "address": "0x7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a",
+      "displayName": null,
+      "accountValue": 4200000,
+      "pnl": 278000,
+      "roi": 0.0662,
+      "volume": 15000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Short", "size": 12.5, "entryPx": "105200", "leverage": 20, "leverageType": "isolated", "positionValue": "1315000", "unrealizedPnl": "42000", "returnOnEquity": "0.64", "liquidationPx": "109800"}
+      ]
+    },
+    {
+      "rank": 8,
+      "address": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+      "displayName": "MoonShot",
+      "accountValue": 3100000,
+      "pnl": 198000,
+      "roi": 0.0639,
+      "volume": 12000000,
+      "positions": [
+        {"coin": "AVAX", "direction": "Long", "size": 45000, "entryPx": "52", "leverage": 5, "leverageType": "cross", "positionValue": "2340000", "unrealizedPnl": "34000", "returnOnEquity": "0.07", "liquidationPx": "42"}
+      ]
+    },
+    {
+      "rank": 9,
+      "address": "0x9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c",
+      "displayName": null,
+      "accountValue": 2800000,
+      "pnl": 156000,
+      "roi": 0.0557,
+      "volume": 9500000,
+      "positions": []
+    },
+    {
+      "rank": 10,
+      "address": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+      "displayName": "DegenMaster",
+      "accountValue": 1950000,
+      "pnl": 124000,
+      "roi": 0.0636,
+      "volume": 8200000,
+      "positions": [
+        {"coin": "PEPE", "direction": "Long", "size": 85000000000, "entryPx": "0.0000215", "leverage": 5, "leverageType": "cross", "positionValue": "1827500", "unrealizedPnl": "89000", "returnOnEquity": "0.24", "liquidationPx": "0.0000172"}
+      ]
+    }
+  ],
+  "weekly": [
+    {
+      "rank": 1,
+      "address": "0xabc123def456789abc123def456789abc123def4",
+      "displayName": "WeeklyKing",
+      "accountValue": 45000000,
+      "pnl": 5670000,
+      "roi": 0.126,
+      "volume": 350000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Long", "size": 200, "entryPx": "102500", "leverage": 3, "leverageType": "cross", "positionValue": "20500000", "unrealizedPnl": "780000", "returnOnEquity": "0.11", "liquidationPx": "75000"},
+        {"coin": "ETH", "direction": "Long", "size": 5000, "entryPx": "3250", "leverage": 5, "leverageType": "cross", "positionValue": "16250000", "unrealizedPnl": "425000", "returnOnEquity": "0.13", "liquidationPx": "2650"}
+      ]
+    },
+    {
+      "rank": 2,
+      "address": "0x87f9cd15f5050a9283b8896300f7c8cf69ece2cf",
+      "displayName": "HyperWhale",
+      "accountValue": 74160689.73,
+      "pnl": 4890000,
+      "roi": 0.066,
+      "volume": 420000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Long", "size": 125.5, "entryPx": "104250", "leverage": 5, "leverageType": "cross", "positionValue": "13083375", "unrealizedPnl": "245000", "returnOnEquity": "0.12", "liquidationPx": "82000"},
+        {"coin": "ETH", "direction": "Short", "size": 2500, "entryPx": "3420", "leverage": 10, "leverageType": "cross", "positionValue": "8550000", "unrealizedPnl": "-42000", "returnOnEquity": "-0.05", "liquidationPx": "4100"}
+      ]
+    },
+    {
+      "rank": 3,
+      "address": "0xdef789abc123def456789abc123def456789abc1",
+      "displayName": null,
+      "accountValue": 22000000,
+      "pnl": 3450000,
+      "roi": 0.157,
+      "volume": 180000000,
+      "positions": [
+        {"coin": "SOL", "direction": "Long", "size": 120000, "entryPx": "235", "leverage": 5, "leverageType": "cross", "positionValue": "28200000", "unrealizedPnl": "1200000", "returnOnEquity": "0.22", "liquidationPx": "190"}
+      ]
+    },
+    {
+      "rank": 4,
+      "address": "0x3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+      "displayName": "DeFiKing",
+      "accountValue": 15200000,
+      "pnl": 2780000,
+      "roi": 0.183,
+      "volume": 145000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Long", "size": 45.2, "entryPx": "103800", "leverage": 10, "leverageType": "isolated", "positionValue": "4691760", "unrealizedPnl": "156000", "returnOnEquity": "0.33", "liquidationPx": "94500"}
+      ]
+    },
+    {
+      "rank": 5,
+      "address": "0x456789abc123def456789abc123def456789abc1",
+      "displayName": "SwingMaster",
+      "accountValue": 9800000,
+      "pnl": 1890000,
+      "roi": 0.193,
+      "volume": 95000000,
+      "positions": []
+    },
+    {
+      "rank": 6,
+      "address": "0x6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+      "displayName": "AlphaTrader",
+      "accountValue": 5600000,
+      "pnl": 1234000,
+      "roi": 0.22,
+      "volume": 68000000,
+      "positions": [
+        {"coin": "ARB", "direction": "Long", "size": 2500000, "entryPx": "1.85", "leverage": 3, "leverageType": "cross", "positionValue": "4625000", "unrealizedPnl": "67000", "returnOnEquity": "0.04", "liquidationPx": "1.25"}
+      ]
+    },
+    {
+      "rank": 7,
+      "address": "0x789abc123def456789abc123def456789abc1234",
+      "displayName": null,
+      "accountValue": 4500000,
+      "pnl": 987000,
+      "roi": 0.219,
+      "volume": 52000000,
+      "positions": [
+        {"coin": "OP", "direction": "Long", "size": 800000, "entryPx": "3.2", "leverage": 5, "leverageType": "cross", "positionValue": "2560000", "unrealizedPnl": "145000", "returnOnEquity": "0.28", "liquidationPx": "2.6"}
+      ]
+    },
+    {
+      "rank": 8,
+      "address": "0x8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+      "displayName": "MoonShot",
+      "accountValue": 3100000,
+      "pnl": 756000,
+      "roi": 0.244,
+      "volume": 42000000,
+      "positions": [
+        {"coin": "AVAX", "direction": "Long", "size": 45000, "entryPx": "52", "leverage": 5, "leverageType": "cross", "positionValue": "2340000", "unrealizedPnl": "34000", "returnOnEquity": "0.07", "liquidationPx": "42"}
+      ]
+    },
+    {
+      "rank": 9,
+      "address": "0xabc123def456789abc123def456789abc123def5",
+      "displayName": "Scalper99",
+      "accountValue": 2200000,
+      "pnl": 534000,
+      "roi": 0.243,
+      "volume": 85000000,
+      "positions": [
+        {"coin": "BTC", "direction": "Long", "size": 8.5, "entryPx": "104800", "leverage": 15, "leverageType": "isolated", "positionValue": "890800", "unrealizedPnl": "28000", "returnOnEquity": "0.47", "liquidationPx": "98500"}
+      ]
+    },
+    {
+      "rank": 10,
+      "address": "0x0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+      "displayName": "DegenMaster",
+      "accountValue": 1950000,
+      "pnl": 445000,
+      "roi": 0.228,
+      "volume": 38000000,
+      "positions": [
+        {"coin": "PEPE", "direction": "Long", "size": 85000000000, "entryPx": "0.0000215", "leverage": 5, "leverageType": "cross", "positionValue": "1827500", "unrealizedPnl": "89000", "returnOnEquity": "0.24", "liquidationPx": "0.0000172"}
+      ]
+    }
+  ],
+  "lastUpdated": "2026-01-22T06:00:00Z"
+}
