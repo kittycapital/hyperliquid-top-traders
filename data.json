@@ -3,90 +3,72 @@
     {
       "address": "0x24de6b77e8bc31c40aa452926daa6bbab7a71b0f",
       "displayName": null,
-      "accountValue": 2138576461.323023,
-      "pnl": 258414154.090755,
-      "roi": 0.1374424568,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
-      "displayName": null,
-      "accountValue": 753496420.76004,
-      "pnl": 172534614.015543,
-      "roi": 0.2967536121,
+      "accountValue": 2170717357.472662,
+      "pnl": 272988346.911236,
+      "roi": 0.14385,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0xe6111266afdcdf0b1fe8505028cc1f7419d798a7",
       "displayName": null,
-      "accountValue": 1368641233.35338,
-      "pnl": 134909889.942078,
-      "roi": 0.1093282139,
+      "accountValue": 1420678314.107285,
+      "pnl": 163592914.34066,
+      "roi": 0.1301066775,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
+      "displayName": null,
+      "accountValue": 751111473.1052,
+      "pnl": 143264235.490931,
+      "roi": 0.2355239583,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x488d2a9b70cc18ef66057a48ab3d59da1c59fe08",
       "displayName": null,
-      "accountValue": 101521610.910053,
-      "pnl": 24284665.765087,
-      "roi": 0.3144177404,
+      "accountValue": 100083198.824079,
+      "pnl": 19472985.286457,
+      "roi": 0.2415697023,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0xe44bd27c9f10fa2f89fdb3ab4b4f0e460da29ea8",
       "displayName": null,
-      "accountValue": 89057121.413597,
-      "pnl": 20433237.948799,
-      "roi": 0.2977569458,
+      "accountValue": 88922079.986391,
+      "pnl": 17505709.529519,
+      "roi": 0.2451218036,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x179f3d11483dafe616d56b32c4ce2562faabbbbb",
       "displayName": null,
-      "accountValue": 80247999.087822,
-      "pnl": 18738450.058598,
-      "roi": 0.3046429433,
+      "accountValue": 79608793.828924,
+      "pnl": 16340933.246006,
+      "roi": 0.258281742,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x05cafe987297448f21a3c7ae0ae815fddecac655",
       "displayName": null,
-      "accountValue": 77156866.787664,
-      "pnl": 17705093.869379,
-      "roi": 0.2978059863,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x85530f0ff6496c72a619f37a60f3c1a59077737f",
-      "displayName": null,
-      "accountValue": 62398736.786027,
-      "pnl": 14570289.229492,
-      "roi": 0.3046364658,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x90b38c5728f184c87ef46479cf7b402d7b98b98a",
-      "displayName": null,
-      "accountValue": 62049565.139686,
-      "pnl": 14484736.203278,
-      "roi": 0.3045261915,
+      "accountValue": 76911300.693496,
+      "pnl": 13939941.659169,
+      "roi": 0.2213695539,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0xb317d2bc2d3d2df5fa441b5bae0ab9d8b07283ae",
       "displayName": null,
-      "accountValue": 178021410.238259,
-      "pnl": 13227777.528088,
-      "roi": 0.0802687416,
+      "accountValue": 180855469.404189,
+      "pnl": 13079367.192247,
+      "roi": 0.0779572717,
       "volume": 60510056.59,
       "positions": [
         {
@@ -96,9 +78,9 @@
           "entryPx": "91506.7",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "50944383.8212499991",
-          "unrealizedPnl": "-1462571.258322",
-          "returnOnEquity": "-0.139539805",
+          "positionValue": "51131087.6887499988",
+          "unrealizedPnl": "-1275867.3908220001",
+          "returnOnEquity": "-0.1217269148",
           "liquidationPx": null
         },
         {
@@ -108,10 +90,10 @@
           "entryPx": "3149.42",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "638072283.0923000574",
-          "unrealizedPnl": "-31894003.210744001",
-          "returnOnEquity": "-0.2380269266",
-          "liquidationPx": "2243.4005083395"
+          "positionValue": "640688815.5417200327",
+          "unrealizedPnl": "-29277470.7613239996",
+          "returnOnEquity": "-0.2184995824",
+          "liquidationPx": "2241.0833034011"
         },
         {
           "coin": "SOL",
@@ -120,115 +102,133 @@
           "entryPx": "130.1911",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "64800883.5810000002",
-          "unrealizedPnl": "-1806573.2189",
-          "returnOnEquity": "-0.2712268724",
+          "positionValue": "65128315.8049999997",
+          "unrealizedPnl": "-1479140.9949",
+          "returnOnEquity": "-0.2220683788",
           "liquidationPx": null
         }
       ]
-    }
-  ],
-  "weekly": [
-    {
-      "address": "0x24de6b77e8bc31c40aa452926daa6bbab7a71b0f",
-      "displayName": null,
-      "accountValue": 2138576461.323023,
-      "pnl": 323193959.05423,
-      "roi": 0.1780231888,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
-      "displayName": null,
-      "accountValue": 753496420.76004,
-      "pnl": 267768303.751697,
-      "roi": 0.5507675591,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0xe6111266afdcdf0b1fe8505028cc1f7419d798a7",
-      "displayName": null,
-      "accountValue": 1368641233.35338,
-      "pnl": 159762486.420554,
-      "roi": 0.1321302079,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x488d2a9b70cc18ef66057a48ab3d59da1c59fe08",
-      "displayName": null,
-      "accountValue": 101521610.910053,
-      "pnl": 37414400.149269,
-      "roi": 0.5836223368,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0xe44bd27c9f10fa2f89fdb3ab4b4f0e460da29ea8",
-      "displayName": null,
-      "accountValue": 89057121.413597,
-      "pnl": 31225174.753265,
-      "roi": 0.5398244236,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x179f3d11483dafe616d56b32c4ce2562faabbbbb",
-      "displayName": null,
-      "accountValue": 80247999.087822,
-      "pnl": 28619622.045931,
-      "roi": 0.5543389834,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
-      "address": "0x05cafe987297448f21a3c7ae0ae815fddecac655",
-      "displayName": null,
-      "accountValue": 77156866.787664,
-      "pnl": 27242042.351724,
-      "roi": 0.5457705734,
-      "volume": 0.0,
-      "positions": []
     },
     {
       "address": "0x85530f0ff6496c72a619f37a60f3c1a59077737f",
       "displayName": null,
-      "accountValue": 62398736.786027,
-      "pnl": 22252412.203393,
-      "roi": 0.5542826756,
+      "accountValue": 61901707.562176,
+      "pnl": 12706036.326372,
+      "roi": 0.2582754947,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x90b38c5728f184c87ef46479cf7b402d7b98b98a",
       "displayName": null,
-      "accountValue": 62049565.139686,
-      "pnl": 21931781.15587,
-      "roi": 0.5466847612,
+      "accountValue": 61633326.442006,
+      "pnl": 11340597.383309,
+      "roi": 0.2254917877,
+      "volume": 0.0,
+      "positions": []
+    }
+  ],
+  "weekly": [
+    {
+      "address": "0x24de6b77e8bc31c40aa452926daa6bbab7a71b0f",
+      "displayName": null,
+      "accountValue": 2170717357.472662,
+      "pnl": 334073240.374827,
+      "roi": 0.1818856257,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
+      "displayName": null,
+      "accountValue": 751111473.1052,
+      "pnl": 262126456.599699,
+      "roi": 0.5355899486,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0xe6111266afdcdf0b1fe8505028cc1f7419d798a7",
+      "displayName": null,
+      "accountValue": 1420678314.107285,
+      "pnl": 192576658.097948,
+      "roi": 0.1567724181,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x488d2a9b70cc18ef66057a48ab3d59da1c59fe08",
+      "displayName": null,
+      "accountValue": 100083198.824079,
+      "pnl": 34819648.724802,
+      "roi": 0.5335236694,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0xe44bd27c9f10fa2f89fdb3ab4b4f0e460da29ea8",
+      "displayName": null,
+      "accountValue": 88922079.986391,
+      "pnl": 30898420.718537,
+      "roi": 0.5324108663,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x179f3d11483dafe616d56b32c4ce2562faabbbbb",
+      "displayName": null,
+      "accountValue": 79608793.828924,
+      "pnl": 27965950.329169,
+      "roi": 0.5415261522,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x05cafe987297448f21a3c7ae0ae815fddecac655",
+      "displayName": null,
+      "accountValue": 76911300.693496,
+      "pnl": 26475142.088233,
+      "roi": 0.5249238408,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x85530f0ff6496c72a619f37a60f3c1a59077737f",
+      "displayName": null,
+      "accountValue": 61901707.562176,
+      "pnl": 21744133.83428,
+      "roi": 0.5414703085,
+      "volume": 0.0,
+      "positions": []
+    },
+    {
+      "address": "0x90b38c5728f184c87ef46479cf7b402d7b98b98a",
+      "displayName": null,
+      "accountValue": 61633326.442006,
+      "pnl": 20934532.7392,
+      "roi": 0.5143772293,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x939f95036d2e7b6d7419ec072bf9d967352204d2",
       "displayName": null,
-      "accountValue": 45654237.868497,
-      "pnl": 18958739.664857,
-      "roi": 0.7049038237,
-      "volume": 58201552.56,
+      "accountValue": 44906974.291005,
+      "pnl": 18282204.925819,
+      "roi": 0.681541919,
+      "volume": 59836322.09,
       "positions": [
         {
           "coin": "BTC",
           "direction": "Long",
-          "size": 123.85048,
-          "entryPx": "87655.8",
+          "size": 131.34119,
+          "entryPx": "87738.4",
           "leverage": 40,
           "leverageType": "cross",
-          "positionValue": "11016871.7474399991",
-          "unrealizedPnl": "160653.05336",
-          "returnOnEquity": "0.5919300555",
-          "liquidationPx": "9065.6872441837"
+          "positionValue": "11726404.1255799998",
+          "unrealizedPnl": "202731.3303",
+          "returnOnEquity": "0.703703876",
+          "liquidationPx": "14757.060993789"
         },
         {
           "coin": "SOL",
@@ -237,22 +237,22 @@
           "entryPx": "118.6079",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "2664485.6231999998",
-          "unrealizedPnl": "-169387.654389",
-          "returnOnEquity": "-1.3577635548",
-          "liquidationPx": "579.781686469"
+          "positionValue": "2677948.9959999998",
+          "unrealizedPnl": "-182851.027189",
+          "returnOnEquity": "-1.4656821453",
+          "liquidationPx": "575.5723144731"
         },
         {
           "coin": "BNB",
           "direction": "Short",
-          "size": 2126.151,
+          "size": 1883.873,
           "entryPx": "901.47",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1905903.0179099999",
-          "unrealizedPnl": "10759.028874",
-          "returnOnEquity": "0.056134199",
-          "liquidationPx": "5097.390531759"
+          "positionValue": "1702625.57867",
+          "unrealizedPnl": "-4369.960993",
+          "returnOnEquity": "-0.0257320567",
+          "liquidationPx": "5599.4889272284"
         },
         {
           "coin": "DOGE",
@@ -261,10 +261,10 @@
           "entryPx": "0.127302",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "4494685.3431599997",
-          "unrealizedPnl": "109675.563935",
-          "returnOnEquity": "0.2381993205",
-          "liquidationPx": "0.3815406931"
+          "positionValue": "4548938.4051599996",
+          "unrealizedPnl": "55422.501935",
+          "returnOnEquity": "0.1203695867",
+          "liquidationPx": "0.380287346"
         },
         {
           "coin": "XRP",
@@ -273,22 +273,22 @@
           "entryPx": "1.958456",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "4173617.7315000002",
-          "unrealizedPnl": "127276.435949",
-          "returnOnEquity": "0.5918603481",
-          "liquidationPx": "6.2410418787"
+          "positionValue": "4220613.4797",
+          "unrealizedPnl": "80280.687749",
+          "returnOnEquity": "0.3733209171",
+          "liquidationPx": "6.2159887893"
         },
         {
           "coin": "UNI",
           "direction": "Short",
-          "size": 229368.6,
+          "size": 207112.0,
           "entryPx": "5.19925",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1092872.5684199999",
-          "unrealizedPnl": "99673.018495",
-          "returnOnEquity": "0.8358004892",
-          "liquidationPx": "45.3332371778"
+          "positionValue": "995338.8496",
+          "unrealizedPnl": "81489.022971",
+          "returnOnEquity": "0.7567506845",
+          "liquidationPx": "49.2530728194"
         },
         {
           "coin": "ADA",
@@ -297,10 +297,10 @@
           "entryPx": "0.37465",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "5224356.57981",
-          "unrealizedPnl": "278497.793596",
-          "returnOnEquity": "0.506096972",
-          "liquidationPx": "0.9892126638"
+          "positionValue": "5266364.1139500001",
+          "unrealizedPnl": "236490.259456",
+          "returnOnEquity": "0.4297592548",
+          "liquidationPx": "0.9852926152"
         },
         {
           "coin": "XLM",
@@ -309,25 +309,25 @@
           "entryPx": "0.215269",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "755994.4784",
-          "unrealizedPnl": "29443.422881",
-          "returnOnEquity": "0.1874331684",
-          "liquidationPx": "2.641595034"
+          "positionValue": "764787.6574199999",
+          "unrealizedPnl": "20650.243861",
+          "returnOnEquity": "0.1314568843",
+          "liquidationPx": "2.617951796"
         },
         {
           "coin": "HYPE",
           "direction": "Long",
-          "size": 441924.35,
+          "size": 420834.97,
           "entryPx": "24.6262",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "14873847.8479500003",
-          "unrealizedPnl": "3990922.2764599998",
-          "returnOnEquity": "3.6671410185",
-          "liquidationPx": "10.3846053009"
+          "positionValue": "14179192.6442099996",
+          "unrealizedPnl": "3815618.752601",
+          "returnOnEquity": "3.6817595865",
+          "liquidationPx": "9.515897371"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-01-28T04:11:31.976321Z"
+  "lastUpdated": "2026-01-28T07:03:42.026430Z"
 }
