@@ -1,21 +1,12 @@
 {
   "daily": [
     {
-      "address": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
-      "displayName": null,
-      "accountValue": 775168505.05176,
-      "pnl": 13757187.665632,
-      "roi": 0.0180680105,
-      "volume": 0.0,
-      "positions": []
-    },
-    {
       "address": "0xd47587702a91731dc1089b5db0932cf820151a91",
       "displayName": null,
-      "accountValue": 52776825.68587,
-      "pnl": 5150180.294196,
-      "roi": 0.1110912391,
-      "volume": 1996199.9,
+      "accountValue": 60350861.20426801,
+      "pnl": 11497353.569023,
+      "roi": 0.250900907,
+      "volume": 1991523.85,
       "positions": [
         {
           "coin": "BTC",
@@ -24,10 +15,10 @@
           "entryPx": "88704.0",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "208.65717",
-          "unrealizedPnl": "1.57131",
-          "returnOnEquity": "0.1494859307",
-          "liquidationPx": "12955180011.3296871185"
+          "positionValue": "199.44972",
+          "unrealizedPnl": "10.77876",
+          "returnOnEquity": "1.0254329004",
+          "liquidationPx": "14867656610.5758209229"
         },
         {
           "coin": "ETH",
@@ -36,10 +27,10 @@
           "entryPx": "3235.91",
           "leverage": 15,
           "leverageType": "cross",
-          "positionValue": "78458072.6157999933",
-          "unrealizedPnl": "8058771.0279869996",
-          "returnOnEquity": "1.3972026756",
-          "liquidationPx": "4070.1227255196"
+          "positionValue": "74859348.2763600051",
+          "unrealizedPnl": "11657495.3674270008",
+          "returnOnEquity": "2.0211374242",
+          "liquidationPx": "4103.369748857"
         },
         {
           "coin": "SOL",
@@ -48,9 +39,9 @@
           "entryPx": "191.0383",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "641460.708",
-          "unrealizedPnl": "-355071.88604",
-          "returnOnEquity": "-7.1261469653",
+          "positionValue": "607397.616",
+          "unrealizedPnl": "-389134.97804",
+          "returnOnEquity": "-7.8097792359",
           "liquidationPx": null
         },
         {
@@ -60,10 +51,10 @@
           "entryPx": "11.7246",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "115900.0",
-          "unrealizedPnl": "1346.13679",
-          "returnOnEquity": "0.1148128908",
-          "liquidationPx": "2928.0961426639"
+          "positionValue": "109960.0",
+          "unrealizedPnl": "7286.13679",
+          "returnOnEquity": "0.6214393915",
+          "liquidationPx": "3344.7324137556"
         },
         {
           "coin": "DOGE",
@@ -72,9 +63,9 @@
           "entryPx": "0.122364",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "205598.0",
-          "unrealizedPnl": "-2422.3349",
-          "returnOnEquity": "-0.1164470243",
+          "positionValue": "196588.0",
+          "unrealizedPnl": "-11432.3349",
+          "returnOnEquity": "-0.5495777567",
           "liquidationPx": null
         },
         {
@@ -84,10 +75,10 @@
           "entryPx": "5.38747",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "436300.2",
-          "unrealizedPnl": "64735.15811",
-          "returnOnEquity": "1.2920277394",
-          "liquidationPx": "318.1376127009"
+          "positionValue": "404215.2",
+          "unrealizedPnl": "96820.15811",
+          "returnOnEquity": "1.9324017066",
+          "liquidationPx": "362.6688613031"
         },
         {
           "coin": "ZRO",
@@ -96,10 +87,10 @@
           "entryPx": "1.3319",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "0.39038",
-          "unrealizedPnl": "-0.124",
-          "returnOnEquity": "-2.3275020647",
-          "liquidationPx": "141306195.4487318099"
+          "positionValue": "0.3918",
+          "unrealizedPnl": "-0.12542",
+          "returnOnEquity": "-2.3541557174",
+          "liquidationPx": "162166359.0104181468"
         },
         {
           "coin": "ETHFI",
@@ -108,10 +99,10 @@
           "entryPx": "0.8262",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "175.2292",
-          "unrealizedPnl": "66.02174",
-          "returnOnEquity": "1.3683208861",
-          "liquidationPx": "96785.6641389259"
+          "positionValue": "165.10556",
+          "unrealizedPnl": "76.14538",
+          "returnOnEquity": "1.5781364417",
+          "liquidationPx": "111073.4127254919"
         },
         {
           "coin": "ENA",
@@ -120,10 +111,10 @@
           "entryPx": "0.206881",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "44081.352",
-          "unrealizedPnl": "11404.39497",
-          "returnOnEquity": "2.0553737839",
-          "liquidationPx": "108.9202358786"
+          "positionValue": "41691.69",
+          "unrealizedPnl": "13794.05697",
+          "returnOnEquity": "2.4860541172",
+          "liquidationPx": "124.4674083988"
         },
         {
           "coin": "PURR",
@@ -132,22 +123,22 @@
           "entryPx": "0.051212",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "4964.682469",
-          "unrealizedPnl": "1762.180147",
-          "returnOnEquity": "1.6507530392",
+          "positionValue": "4691.85099",
+          "unrealizedPnl": "1489.348668",
+          "returnOnEquity": "1.3951733847",
           "liquidationPx": null
         },
         {
           "coin": "HYPE",
           "direction": "Short",
-          "size": 171459.27,
-          "entryPx": "25.9228",
+          "size": 172459.27,
+          "entryPx": "25.9658",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "5891854.8950100001",
-          "unrealizedPnl": "-1447138.0455",
-          "returnOnEquity": "-1.6279305235",
-          "liquidationPx": "202.9308355117"
+          "positionValue": "5584231.1626000004",
+          "unrealizedPnl": "-1106173.9156200001",
+          "returnOnEquity": "-1.2351047057",
+          "liquidationPx": "224.2428881484"
         },
         {
           "coin": "FARTCOIN",
@@ -156,10 +147,10 @@
           "entryPx": "0.38341",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "3268073.0",
-          "unrealizedPnl": "1064500.8725469999",
-          "returnOnEquity": "2.4569710843",
-          "liquidationPx": "2.857509189"
+          "positionValue": "3001393.0",
+          "unrealizedPnl": "1331180.8725469999",
+          "returnOnEquity": "3.0724943456",
+          "liquidationPx": "3.2041883509"
         },
         {
           "coin": "PUMP",
@@ -168,10 +159,10 @@
           "entryPx": "0.003162",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "886373.00136",
-          "unrealizedPnl": "40588.155569",
-          "returnOnEquity": "0.2189312641",
-          "liquidationPx": "0.1024056831"
+          "positionValue": "845044.101495",
+          "unrealizedPnl": "81917.055434",
+          "returnOnEquity": "0.4418580801",
+          "liquidationPx": "0.1165046337"
         },
         {
           "coin": "XPL",
@@ -180,10 +171,10 @@
           "entryPx": "0.189851",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "276820.0",
-          "unrealizedPnl": "102883.77137",
-          "returnOnEquity": "1.354789959",
-          "liquidationPx": "14.3309198042"
+          "positionValue": "254480.0",
+          "unrealizedPnl": "125223.77137",
+          "returnOnEquity": "1.6489666526",
+          "liquidationPx": "16.406273887"
         },
         {
           "coin": "WLFI",
@@ -192,10 +183,10 @@
           "entryPx": "0.169215",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "1870.76412",
-          "unrealizedPnl": "98.401389",
-          "returnOnEquity": "0.1499133342",
-          "liquidationPx": "2428.7281484477"
+          "positionValue": "1829.91825",
+          "unrealizedPnl": "139.247259",
+          "returnOnEquity": "0.2121415265",
+          "liquidationPx": "2787.2390932829"
         },
         {
           "coin": "ZEC",
@@ -204,22 +195,22 @@
           "entryPx": "393.0354",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "2493782.9402999999",
-          "unrealizedPnl": "200329.409068",
-          "returnOnEquity": "0.3717911191",
-          "liquidationPx": "4602.8390706345"
+          "positionValue": "2399805.963",
+          "unrealizedPnl": "294306.386368",
+          "returnOnEquity": "0.5462028828",
+          "liquidationPx": "5198.3967323032"
         },
         {
           "coin": "MON",
           "direction": "Short",
-          "size": 110122512.0,
+          "size": 83777934.0,
           "entryPx": "0.023797",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "2241543.7317599999",
-          "unrealizedPnl": "379061.31418",
-          "returnOnEquity": "0.4339394615",
-          "liquidationPx": "0.2769895263"
+          "positionValue": "1661400.209154",
+          "unrealizedPnl": "332278.218021",
+          "returnOnEquity": "0.499997713",
+          "liquidationPx": "0.4069648175"
         },
         {
           "coin": "LIT",
@@ -228,10 +219,10 @@
           "entryPx": "1.924968",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "1018332.341",
-          "unrealizedPnl": "10944.356012",
-          "returnOnEquity": "0.0318991658",
-          "liquidationPx": "54.7590809024"
+          "positionValue": "865034.4244",
+          "unrealizedPnl": "164242.272612",
+          "returnOnEquity": "0.4787117199",
+          "liquidationPx": "62.2749773418"
         },
         {
           "coin": "XMR",
@@ -240,21 +231,21 @@
           "entryPx": "708.777",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1170175.0",
-          "unrealizedPnl": "601768.73114",
-          "returnOnEquity": "1.6980469542",
-          "liquidationPx": "11772.5654797465"
+          "positionValue": "1138800.0",
+          "unrealizedPnl": "633143.73114",
+          "returnOnEquity": "1.7865796752",
+          "liquidationPx": "13428.8285641135"
         },
         {
           "coin": "DASH",
           "direction": "Long",
-          "size": 62770.2,
-          "entryPx": "64.4736",
+          "size": 63419.02,
+          "entryPx": "64.3988",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "3612299.4696",
-          "unrealizedPnl": "-434723.4374",
-          "returnOnEquity": "-0.5370904087",
+          "positionValue": "3413592.1705200002",
+          "unrealizedPnl": "-670516.71366",
+          "returnOnEquity": "-0.8208849625",
           "liquidationPx": null
         }
       ]
@@ -262,10 +253,10 @@
     {
       "address": "0x20c2d95a3dfdca9e9ad12794d5fa6fad99da44f5",
       "displayName": null,
-      "accountValue": 58787584.632971,
-      "pnl": 4322258.869562,
-      "roi": 0.079854773,
-      "volume": 43919.11,
+      "accountValue": 65623978.468214996,
+      "pnl": 10864606.994414,
+      "roi": 0.1996258289,
+      "volume": 64603.86,
       "positions": [
         {
           "coin": "ETH",
@@ -274,20 +265,20 @@
           "entryPx": "3116.99",
           "leverage": 25,
           "leverageType": "cross",
-          "positionValue": "89744491.2143000066",
-          "unrealizedPnl": "5581297.6194810001",
-          "returnOnEquity": "1.463742836",
-          "liquidationPx": "3864.4265086863"
+          "positionValue": "85649487.8496399969",
+          "unrealizedPnl": "9676300.9841409996",
+          "returnOnEquity": "2.537692345",
+          "liquidationPx": "3864.5973526378"
         }
       ]
     },
     {
       "address": "0x7fdafde5cfb5465924316eced2d3715494c517d1",
       "displayName": "BobbyBigSize",
-      "accountValue": 43188392.624328,
-      "pnl": 4302412.095416,
-      "roi": 0.10466864,
-      "volume": 23293556.82,
+      "accountValue": 38001553.246795,
+      "pnl": 9369189.108969,
+      "roi": 0.2231126631,
+      "volume": 13855301.22,
       "positions": [
         {
           "coin": "BTC",
@@ -296,34 +287,34 @@
           "entryPx": "88953.5",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "6431809.7231099997",
-          "unrealizedPnl": "66665.37635",
-          "returnOnEquity": "0.2051723684",
-          "liquidationPx": "581508.1419855014"
+          "positionValue": "6147992.1747599998",
+          "unrealizedPnl": "350482.9247",
+          "returnOnEquity": "1.0786620533",
+          "liquidationPx": "513840.1375830846"
         },
         {
           "coin": "ETH",
           "direction": "Short",
-          "size": 33548.0411,
+          "size": 33446.0176,
           "entryPx": "3093.35",
           "leverage": 15,
           "leverageType": "cross",
-          "positionValue": "98446726.607950002",
-          "unrealizedPnl": "5329352.8236870002",
-          "returnOnEquity": "0.7703152094",
-          "liquidationPx": "3988.0138124194"
+          "positionValue": "93645504.6782400012",
+          "unrealizedPnl": "9814979.6100319996",
+          "returnOnEquity": "1.4230041079",
+          "liquidationPx": "3721.9700635427"
         },
         {
           "coin": "SOL",
           "direction": "Short",
-          "size": 77803.33,
+          "size": 60229.03,
           "entryPx": "130.8907",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "9567475.4901000001",
-          "unrealizedPnl": "616256.983",
-          "returnOnEquity": "1.2102772429",
-          "liquidationPx": "580.6684506859"
+          "positionValue": "7013068.2532000002",
+          "unrealizedPnl": "870351.757161",
+          "returnOnEquity": "2.2080562903",
+          "liquidationPx": "631.2688075719"
         },
         {
           "coin": "AVAX",
@@ -332,22 +323,22 @@
           "entryPx": "22.8759",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "2469854.3821",
-          "unrealizedPnl": "2405057.0507530002",
-          "returnOnEquity": "4.9335399912",
-          "liquidationPx": "171.0407416631"
+          "positionValue": "2343271.6812399998",
+          "unrealizedPnl": "2531639.7516129999",
+          "returnOnEquity": "5.1932015309",
+          "liquidationPx": "150.3472708811"
         },
         {
           "coin": "BNB",
           "direction": "Short",
-          "size": 785.607,
-          "entryPx": "910.177",
+          "size": 818.542,
+          "entryPx": "908.653",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "698930.9796899999",
-          "unrealizedPnl": "16110.531698",
-          "returnOnEquity": "0.2253090407",
-          "liquidationPx": "43260.819303774"
+          "positionValue": "704699.1786400001",
+          "unrealizedPnl": "39072.150598",
+          "returnOnEquity": "0.5253247747",
+          "liquidationPx": "36287.0976422257"
         },
         {
           "coin": "LTC",
@@ -356,9 +347,9 @@
           "entryPx": "96.343",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "907.35766",
-          "unrealizedPnl": "-386.529961",
-          "returnOnEquity": "-2.9873534202",
+          "positionValue": "875.30025",
+          "unrealizedPnl": "-418.587371",
+          "returnOnEquity": "-3.235113809",
           "liquidationPx": null
         },
         {
@@ -368,10 +359,10 @@
           "entryPx": "0.138885",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "116612.04116",
-          "unrealizedPnl": "17303.251533",
-          "returnOnEquity": "1.2921042239",
-          "liquidationPx": "35.4722912628"
+          "positionValue": "111501.70696",
+          "unrealizedPnl": "22413.585733",
+          "returnOnEquity": "1.6737136799",
+          "liquidationPx": "31.019054692"
         },
         {
           "coin": "kPEPE",
@@ -380,10 +371,10 @@
           "entryPx": "0.01127",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "51829.806699",
-          "unrealizedPnl": "69136.978434",
-          "returnOnEquity": "5.7153687566",
-          "liquidationPx": "3.1809320461"
+          "positionValue": "50112.521739",
+          "unrealizedPnl": "70854.263394",
+          "returnOnEquity": "5.8573321029",
+          "liquidationPx": "2.7811722554"
         },
         {
           "coin": "XRP",
@@ -392,10 +383,10 @@
           "entryPx": "1.948231",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "2032241.9939999999",
-          "unrealizedPnl": "77684.5431",
-          "returnOnEquity": "0.736372018",
-          "liquidationPx": "34.7579359418"
+          "positionValue": "1937588.1436000001",
+          "unrealizedPnl": "172338.3935",
+          "returnOnEquity": "1.633596151",
+          "liquidationPx": "30.4204520051"
         },
         {
           "coin": "WLD",
@@ -404,10 +395,10 @@
           "entryPx": "0.98736",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "27285.849675",
-          "unrealizedPnl": "28579.772972",
-          "returnOnEquity": "5.1158067552",
-          "liquidationPx": "602.9945747475"
+          "positionValue": "26877.905712",
+          "unrealizedPnl": "28987.716935",
+          "returnOnEquity": "5.1888291156",
+          "liquidationPx": "527.1840116776"
         },
         {
           "coin": "ADA",
@@ -416,10 +407,10 @@
           "entryPx": "0.549523",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "9078.35362",
-          "unrealizedPnl": "5307.627844",
-          "returnOnEquity": "3.6894443784",
-          "liquidationPx": "1302.5797033877"
+          "positionValue": "8661.32215",
+          "unrealizedPnl": "5724.659314",
+          "returnOnEquity": "3.979331774",
+          "liquidationPx": "1138.7310813585"
         },
         {
           "coin": "WIF",
@@ -428,22 +419,22 @@
           "entryPx": "0.784313",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "374.543",
-          "unrealizedPnl": "587.02572",
-          "returnOnEquity": "3.0524376874",
-          "liquidationPx": "27807.4436151075"
+          "positionValue": "356.34916",
+          "unrealizedPnl": "605.21956",
+          "returnOnEquity": "3.1470426783",
+          "liquidationPx": "24309.0648488321"
         },
         {
           "coin": "ENA",
           "direction": "Short",
-          "size": 3684501.0,
+          "size": 2866403.0,
           "entryPx": "0.255119",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "605584.58436",
-          "unrealizedPnl": "334403.870114",
-          "returnOnEquity": "3.5575316752",
-          "liquidationPx": "9.4095852779"
+          "positionValue": "445582.34635",
+          "unrealizedPnl": "285693.266202",
+          "returnOnEquity": "3.9067796231",
+          "liquidationPx": "10.5455869103"
         },
         {
           "coin": "POPCAT",
@@ -452,10 +443,10 @@
           "entryPx": "0.215958",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "336.284952",
-          "unrealizedPnl": "673.105349",
-          "returnOnEquity": "2.0005304638",
-          "liquidationPx": "7293.9429510217"
+          "positionValue": "315.495",
+          "unrealizedPnl": "693.895301",
+          "returnOnEquity": "2.0623200965",
+          "liquidationPx": "6376.3103353692"
         },
         {
           "coin": "GOAT",
@@ -464,22 +455,22 @@
           "entryPx": "0.478596",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "9856.148925",
-          "unrealizedPnl": "146988.973743",
-          "returnOnEquity": "2.8114799729",
-          "liquidationPx": "101.2829088141"
+          "positionValue": "9361.620954",
+          "unrealizedPnl": "147483.501714",
+          "returnOnEquity": "2.820938883",
+          "liquidationPx": "88.1939834586"
         },
         {
           "coin": "HYPE",
           "direction": "Short",
-          "size": 33223.13,
-          "entryPx": "33.9151",
+          "size": 20959.55,
+          "entryPx": "33.8506",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1141646.41619",
-          "unrealizedPnl": "-14877.792611",
-          "returnOnEquity": "-0.0660197324",
-          "liquidationPx": "1058.9406161032"
+          "positionValue": "678670.2290000001",
+          "unrealizedPnl": "30824.419331",
+          "returnOnEquity": "0.2172279904",
+          "liquidationPx": "1452.8172091206"
         },
         {
           "coin": "PENGU",
@@ -488,9 +479,9 @@
           "entryPx": "0.028211",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1239.595336",
-          "unrealizedPnl": "-2400.103251",
-          "returnOnEquity": "-3.2971181454",
+          "positionValue": "1174.183717",
+          "unrealizedPnl": "-2465.51487",
+          "returnOnEquity": "-3.3869767112",
           "liquidationPx": null
         },
         {
@@ -500,10 +491,10 @@
           "entryPx": "0.32004",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "3009744.3810640001",
-          "unrealizedPnl": "320911.874086",
-          "returnOnEquity": "0.9635094393",
-          "liquidationPx": "3.5519643785"
+          "positionValue": "2764144.4108239999",
+          "unrealizedPnl": "566511.844326",
+          "returnOnEquity": "1.7009015669",
+          "liquidationPx": "3.1173023571"
         },
         {
           "coin": "PUMP",
@@ -512,10 +503,10 @@
           "entryPx": "0.003389",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "720529.849872",
-          "unrealizedPnl": "87144.920507",
-          "returnOnEquity": "0.5394802692",
-          "liquidationPx": "0.1459658401"
+          "positionValue": "686933.715999",
+          "unrealizedPnl": "120741.05438",
+          "returnOnEquity": "0.7474608519",
+          "liquidationPx": "0.1278307168"
         },
         {
           "coin": "XPL",
@@ -524,10 +515,10 @@
           "entryPx": "0.159184",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1110336.2312100001",
-          "unrealizedPnl": "166653.995777",
-          "returnOnEquity": "0.6525265122",
-          "liquidationPx": "4.2855098925"
+          "positionValue": "1020729.58644",
+          "unrealizedPnl": "256260.640547",
+          "returnOnEquity": "1.003377454",
+          "liquidationPx": "3.7401989418"
         },
         {
           "coin": "LINEA",
@@ -536,22 +527,22 @@
           "entryPx": "0.027679",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "731.20818",
-          "unrealizedPnl": "2774.685579",
-          "returnOnEquity": "2.3743037608",
-          "liquidationPx": "247.016162045"
+          "positionValue": "708.28272",
+          "unrealizedPnl": "2797.611039",
+          "returnOnEquity": "2.3939211208",
+          "liquidationPx": "215.0886987775"
         },
         {
           "coin": "ASTER",
           "direction": "Short",
-          "size": 1147885.0,
-          "entryPx": "0.685138",
+          "size": 1058731.0,
+          "entryPx": "0.684193",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "741946.9486",
-          "unrealizedPnl": "44512.760658",
-          "returnOnEquity": "0.1697967237",
-          "liquidationPx": "29.5538528627"
+          "positionValue": "650791.35839",
+          "unrealizedPnl": "73585.971218",
+          "returnOnEquity": "0.3047554149",
+          "liquidationPx": "27.9053638767"
         },
         {
           "coin": "XMR",
@@ -560,9 +551,9 @@
           "entryPx": "501.642",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "191070.38663",
-          "unrealizedPnl": "-13704.60423",
-          "returnOnEquity": "-0.334625927",
+          "positionValue": "185947.36368",
+          "unrealizedPnl": "-18827.62718",
+          "returnOnEquity": "-0.4597150048",
           "liquidationPx": null
         }
       ]
@@ -570,117 +561,117 @@
     {
       "address": "0xecb63caa47c7c4e77f60f1ce858cf28dc2b82b00",
       "displayName": null,
-      "accountValue": 96977934.123753,
-      "pnl": 4199867.078489,
-      "roi": 0.0877138739,
-      "volume": 972566107.16,
+      "accountValue": 95062346.838911,
+      "pnl": 8852850.341025,
+      "roi": 0.1861219389,
+      "volume": 1217997614.74,
       "positions": [
         {
           "coin": "BTC",
           "direction": "Short",
-          "size": 55.53777,
-          "entryPx": "88057.8",
+          "size": 297.89952,
+          "entryPx": "84605.6",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "4889600.8085700003",
-          "unrealizedPnl": "934.026355",
-          "returnOnEquity": "0.0038197309",
-          "liquidationPx": "813839.1644366628"
+          "positionValue": "25079564.789760001",
+          "unrealizedPnl": "124425.483067",
+          "returnOnEquity": "0.0987347493",
+          "liquidationPx": "230758.1791802571"
         },
         {
           "coin": "ETH",
           "direction": "Short",
-          "size": 24296.3189,
-          "entryPx": "2965.24",
+          "size": 26167.8171,
+          "entryPx": "2877.63",
           "leverage": 15,
           "leverageType": "cross",
-          "positionValue": "71297547.8120499998",
-          "unrealizedPnl": "746938.42899",
-          "returnOnEquity": "0.1555160848",
-          "liquidationPx": "4575.3609136464"
+          "positionValue": "73285588.5702600032",
+          "unrealizedPnl": "2015810.6812779999",
+          "returnOnEquity": "0.4015484509",
+          "liquidationPx": "4448.715384345"
         },
         {
           "coin": "ATOM",
-          "direction": "Long",
-          "size": 23138.83,
-          "entryPx": "2.2138",
+          "direction": "Short",
+          "size": 25456.45,
+          "entryPx": "2.1366",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "50500.496475",
-          "unrealizedPnl": "-725.783063",
-          "returnOnEquity": "-0.0708408916",
-          "liquidationPx": null
+          "positionValue": "53776.750625",
+          "unrealizedPnl": "614.278197",
+          "returnOnEquity": "0.0564687054",
+          "liquidationPx": "1580.8863685057"
         },
         {
           "coin": "SOL",
           "direction": "Short",
-          "size": 48635.08,
-          "entryPx": "124.4796",
+          "size": 31159.31,
+          "entryPx": "118.238",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "5980655.7876000004",
-          "unrealizedPnl": "73423.940229",
-          "returnOnEquity": "0.2425602025",
-          "liquidationPx": "941.671969291"
+          "positionValue": "3628501.6494999998",
+          "unrealizedPnl": "55715.617784",
+          "returnOnEquity": "0.3024556574",
+          "liquidationPx": "1500.6497189851"
         },
         {
           "coin": "AVAX",
           "direction": "Short",
-          "size": 14149.81,
-          "entryPx": "12.2178",
+          "size": 16425.37,
+          "entryPx": "11.9141",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "163996.2979",
-          "unrealizedPnl": "8884.407739",
-          "returnOnEquity": "0.5139039493",
-          "liquidationPx": "2697.4517537522"
+          "positionValue": "180629.79389",
+          "unrealizedPnl": "15064.313821",
+          "returnOnEquity": "0.76978883",
+          "liquidationPx": "2512.6671912246"
         },
         {
           "coin": "BNB",
           "direction": "Short",
-          "size": 456.131,
-          "entryPx": "902.051",
+          "size": 276.034,
+          "entryPx": "892.943",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "405806.06677",
-          "unrealizedPnl": "5647.423476",
-          "returnOnEquity": "0.068627726",
-          "liquidationPx": "82490.6023549654"
+          "positionValue": "237695.63774",
+          "unrealizedPnl": "8787.11678",
+          "returnOnEquity": "0.1782501335",
+          "liquidationPx": "146913.9054314159"
         },
         {
           "coin": "LTC",
           "direction": "Short",
-          "size": 543.48,
-          "entryPx": "67.6743",
+          "size": 3372.53,
+          "entryPx": "65.6675",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "36718.59576",
-          "unrealizedPnl": "61.072986",
-          "returnOnEquity": "0.0166050941",
-          "liquidationPx": "70006.1408841506"
+          "positionValue": "219811.38781",
+          "unrealizedPnl": "1654.316494",
+          "returnOnEquity": "0.0746985408",
+          "liquidationPx": "12248.6349758501"
         },
         {
           "coin": "ARB",
           "direction": "Long",
-          "size": 1794474.4,
-          "entryPx": "0.17119",
+          "size": 1722646.2,
+          "entryPx": "0.16925",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "295191.0388",
-          "unrealizedPnl": "-12005.736719",
-          "returnOnEquity": "-0.3908158443",
+          "positionValue": "269197.921674",
+          "unrealizedPnl": "-22362.366158",
+          "returnOnEquity": "-0.7669894389",
           "liquidationPx": null
         },
         {
           "coin": "DOGE",
           "direction": "Long",
-          "size": 1782990.0,
-          "entryPx": "0.122049",
+          "size": 2179898.0,
+          "entryPx": "0.117268",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "215634.8106",
-          "unrealizedPnl": "-1978.936659",
-          "returnOnEquity": "-0.0909380351",
+          "positionValue": "252127.00268",
+          "unrealizedPnl": "-3505.63339",
+          "returnOnEquity": "-0.137135596",
           "liquidationPx": null
         },
         {
@@ -690,70 +681,70 @@
           "entryPx": "7.83",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1.7114",
-          "unrealizedPnl": "1.4206",
-          "returnOnEquity": "4.5357598978",
-          "liquidationPx": "97173996.3426476121"
+          "positionValue": "1.6274",
+          "unrealizedPnl": "1.5046",
+          "returnOnEquity": "4.8039591315",
+          "liquidationPx": "105259470.3766285628"
         },
         {
           "coin": "SUI",
           "direction": "Long",
-          "size": 259160.2,
-          "entryPx": "1.36081",
+          "size": 563599.9,
+          "entryPx": "1.32387",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "353624.0929",
-          "unrealizedPnl": "955.772611",
-          "returnOnEquity": "0.0271011757",
+          "positionValue": "735892.38943",
+          "unrealizedPnl": "-10243.012945",
+          "returnOnEquity": "-0.1372808865",
           "liquidationPx": null
         },
         {
           "coin": "kPEPE",
           "direction": "Short",
-          "size": 90344202.0,
-          "entryPx": "0.005012",
+          "size": 52706975.0,
+          "entryPx": "0.004992",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "436272.151458",
-          "unrealizedPnl": "16580.145542",
-          "returnOnEquity": "0.3661270055",
-          "liquidationPx": "0.4253546838"
+          "positionValue": "246141.57325",
+          "unrealizedPnl": "17001.976569",
+          "returnOnEquity": "0.6461103295",
+          "liquidationPx": "0.7842230041"
         },
         {
           "coin": "CRV",
           "direction": "Short",
-          "size": 1351643.5,
-          "entryPx": "0.34995",
+          "size": 1448153.9,
+          "entryPx": "0.3458",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "455976.934725",
-          "unrealizedPnl": "17038.833143",
-          "returnOnEquity": "0.3602170224",
-          "liquidationPx": "28.4447330894"
+          "positionValue": "473546.3253",
+          "unrealizedPnl": "27233.352928",
+          "returnOnEquity": "0.5438190508",
+          "liquidationPx": "28.6924548878"
         },
         {
           "coin": "LDO",
           "direction": "Short",
-          "size": 744087.6,
-          "entryPx": "0.56068",
+          "size": 776410.7,
+          "entryPx": "0.5532",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "374276.0628",
-          "unrealizedPnl": "42919.942781",
-          "returnOnEquity": "0.5143858307",
-          "liquidationPx": "50.5268789868"
+          "positionValue": "367863.38966",
+          "unrealizedPnl": "61648.678237",
+          "returnOnEquity": "0.7176594425",
+          "liquidationPx": "52.391709707"
         },
         {
           "coin": "LINK",
           "direction": "Short",
-          "size": 134273.7,
-          "entryPx": "13.32537",
+          "size": 134095.1,
+          "entryPx": "13.31569",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1556366.4567",
-          "unrealizedPnl": "232880.352272",
-          "returnOnEquity": "1.3015552192",
-          "liquidationPx": "294.1567142775"
+          "positionValue": "1470486.8666000001",
+          "unrealizedPnl": "315082.450067",
+          "returnOnEquity": "1.7646049757",
+          "liquidationPx": "316.9594974648"
         },
         {
           "coin": "STX",
@@ -762,93 +753,93 @@
           "entryPx": "0.6031",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1.210976",
-          "unrealizedPnl": "1.261734",
-          "returnOnEquity": "2.5513181894",
-          "liquidationPx": "9049462.9709567633"
+          "positionValue": "1.149845",
+          "unrealizedPnl": "1.322865",
+          "returnOnEquity": "2.6749295308",
+          "liquidationPx": "9802433.9499430154"
         },
         {
           "coin": "SNX",
           "direction": "Short",
-          "size": 147792.6,
-          "entryPx": "0.4085",
+          "size": 130630.4,
+          "entryPx": "0.39635",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "59929.8993",
-          "unrealizedPnl": "444.025629",
-          "returnOnEquity": "0.0220637782",
-          "liquidationPx": "237.1063709712"
+          "positionValue": "50139.866432",
+          "unrealizedPnl": "1635.718311",
+          "returnOnEquity": "0.0947773928",
+          "liquidationPx": "290.4649127413"
         },
         {
           "coin": "XRP",
           "direction": "Short",
-          "size": 2230530.0,
-          "entryPx": "1.902582",
+          "size": 1188390.0,
+          "entryPx": "1.875144",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "4185589.5449999999",
-          "unrealizedPnl": "58176.869816",
-          "returnOnEquity": "0.1370878228",
-          "liquidationPx": "19.6849674423"
+          "positionValue": "2126386.227",
+          "unrealizedPnl": "102016.833924",
+          "returnOnEquity": "0.4578024313",
+          "liquidationPx": "37.977368927"
         },
         {
           "coin": "BCH",
-          "direction": "Short",
-          "size": 7.581,
-          "entryPx": "591.8",
+          "direction": "Long",
+          "size": 124.438,
+          "entryPx": "549.648",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "4369.99164",
-          "unrealizedPnl": "116.445372",
-          "returnOnEquity": "0.2595497757",
-          "liquidationPx": "5014649.6814001501"
+          "positionValue": "68998.38224",
+          "unrealizedPnl": "601.277632",
+          "returnOnEquity": "0.0879098078",
+          "liquidationPx": null
         },
         {
           "coin": "APT",
           "direction": "Long",
-          "size": 154461.76,
-          "entryPx": "1.5622",
+          "size": 181010.66,
+          "entryPx": "1.5349",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "240744.099136",
-          "unrealizedPnl": "-562.965805",
-          "returnOnEquity": "-0.0233298517",
+          "positionValue": "266067.569134",
+          "unrealizedPnl": "-11765.892035",
+          "returnOnEquity": "-0.4234872209",
           "liquidationPx": null
         },
         {
           "coin": "AAVE",
           "direction": "Short",
-          "size": 697.47,
-          "entryPx": "157.1539",
+          "size": 1607.45,
+          "entryPx": "150.3558",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "108086.9259",
-          "unrealizedPnl": "1523.248693",
-          "returnOnEquity": "0.1389696439",
-          "liquidationPx": "54647.6002736344"
+          "positionValue": "233064.1755",
+          "unrealizedPnl": "8625.26376",
+          "returnOnEquity": "0.3568738372",
+          "liquidationPx": "25706.2672576775"
         },
         {
           "coin": "WLD",
           "direction": "Short",
-          "size": 996262.7,
-          "entryPx": "0.54022",
+          "size": 986428.0,
+          "entryPx": "0.53789",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "480497.50021",
-          "unrealizedPnl": "57712.326617",
-          "returnOnEquity": "1.0723016144",
-          "liquidationPx": "38.6148598997"
+          "positionValue": "468454.6572",
+          "unrealizedPnl": "62138.089674",
+          "returnOnEquity": "1.1711070315",
+          "liquidationPx": "42.1178537285"
         },
         {
           "coin": "TRX",
           "direction": "Long",
-          "size": 1628086.0,
-          "entryPx": "0.295331",
+          "size": 1576743.0,
+          "entryPx": "0.295114",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "478738.6883",
-          "unrealizedPnl": "-2086.419416",
-          "returnOnEquity": "-0.0433924806",
+          "positionValue": "462017.23386",
+          "unrealizedPnl": "-3302.613165",
+          "returnOnEquity": "-0.0709751193",
           "liquidationPx": null
         },
         {
@@ -858,142 +849,142 @@
           "entryPx": "0.014599",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "4.395768",
-          "unrealizedPnl": "4.130048",
-          "returnOnEquity": "4.8441674087",
-          "liquidationPx": "63765.6931545735"
+          "positionValue": "4.262032",
+          "unrealizedPnl": "4.263784",
+          "returnOnEquity": "5.0010274676",
+          "liquidationPx": "69051.9618999798"
         },
         {
           "coin": "UNI",
           "direction": "Short",
-          "size": 116991.2,
-          "entryPx": "4.73632",
+          "size": 91380.6,
+          "entryPx": "4.69316",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "548899.31216",
-          "unrealizedPnl": "5209.436995",
-          "returnOnEquity": "0.0940147038",
-          "liquidationPx": "329.3909048071"
+          "positionValue": "397231.4682",
+          "unrealizedPnl": "31632.900861",
+          "returnOnEquity": "0.7375968521",
+          "liquidationPx": "453.9064576769"
         },
         {
           "coin": "SEI",
-          "direction": "Short",
-          "size": 280401.0,
-          "entryPx": "0.106077",
+          "direction": "Long",
+          "size": 559964.0,
+          "entryPx": "0.09953",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "29217.7842",
-          "unrealizedPnl": "526.338384",
-          "returnOnEquity": "0.1769554246",
-          "liquidationPx": "132.9062674862"
+          "positionValue": "55587.62628",
+          "unrealizedPnl": "-146.089921",
+          "returnOnEquity": "-0.0262121263",
+          "liquidationPx": null
         },
         {
           "coin": "TIA",
           "direction": "Short",
-          "size": 176677.4,
-          "entryPx": "0.46236",
+          "size": 142539.9,
+          "entryPx": "0.45108",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "77298.129274",
-          "unrealizedPnl": "4390.898388",
-          "returnOnEquity": "0.5375138515",
-          "liquidationPx": "215.566181396"
+          "positionValue": "58405.724025",
+          "unrealizedPnl": "5891.224804",
+          "returnOnEquity": "0.9162526234",
+          "liquidationPx": "288.7249105156"
         },
         {
           "coin": "ADA",
           "direction": "Short",
-          "size": 84720.0,
-          "entryPx": "0.350939",
+          "size": 253102.0,
+          "entryPx": "0.338639",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "29380.0488",
-          "unrealizedPnl": "351.521416",
-          "returnOnEquity": "0.1182317023",
-          "liquidationPx": "449.0077014999"
+          "positionValue": "83746.38976",
+          "unrealizedPnl": "1964.011453",
+          "returnOnEquity": "0.2291450542",
+          "liquidationPx": "162.6972868239"
         },
         {
           "coin": "TON",
           "direction": "Short",
-          "size": 79117.0,
-          "entryPx": "1.51412",
+          "size": 78950.8,
+          "entryPx": "1.5003",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "116570.9878",
-          "unrealizedPnl": "3221.815213",
-          "returnOnEquity": "0.2689489796",
-          "liquidationPx": "472.0911171158"
+          "positionValue": "114510.24032",
+          "unrealizedPnl": "3940.413528",
+          "returnOnEquity": "0.3326628769",
+          "liquidationPx": "512.1625988677"
         },
         {
           "coin": "NEAR",
           "direction": "Short",
-          "size": 93189.9,
-          "entryPx": "1.47868",
+          "size": 104596.2,
+          "entryPx": "1.4627",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "132888.7974",
-          "unrealizedPnl": "4910.068324",
-          "returnOnEquity": "0.356321389",
-          "liquidationPx": "409.2582594955"
+          "positionValue": "142627.37832",
+          "unrealizedPnl": "10365.687622",
+          "returnOnEquity": "0.6775266289",
+          "liquidationPx": "394.2324221117"
         },
         {
           "coin": "PYTH",
           "direction": "Short",
-          "size": 1162598.0,
-          "entryPx": "0.064298",
+          "size": 976070.0,
+          "entryPx": "0.063225",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "73109.97523",
-          "unrealizedPnl": "1642.880152",
-          "returnOnEquity": "0.1098874514",
-          "liquidationPx": "31.9765791315"
+          "positionValue": "58858.97314",
+          "unrealizedPnl": "2853.169367",
+          "returnOnEquity": "0.2311675832",
+          "liquidationPx": "41.2356050468"
         },
         {
           "coin": "kBONK",
           "direction": "Short",
-          "size": 10429742.0,
-          "entryPx": "0.00915",
+          "size": 12079031.0,
+          "entryPx": "0.008808",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "87922.72506",
-          "unrealizedPnl": "7519.194517",
-          "returnOnEquity": "0.7878293469",
-          "liquidationPx": "3.6526132781"
+          "positionValue": "98214.601061",
+          "unrealizedPnl": "8187.620293",
+          "returnOnEquity": "0.7694971203",
+          "liquidationPx": "3.41027515"
         },
         {
           "coin": "JUP",
           "direction": "Short",
-          "size": 458430.0,
-          "entryPx": "0.213497",
+          "size": 210115.0,
+          "entryPx": "0.205986",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "96655.3812",
-          "unrealizedPnl": "1218.329147",
-          "returnOnEquity": "0.062239857",
-          "liquidationPx": "81.4332014944"
+          "positionValue": "42273.03685",
+          "unrealizedPnl": "1007.765136",
+          "returnOnEquity": "0.1164217262",
+          "liquidationPx": "192.1171416437"
         },
         {
           "coin": "WIF",
           "direction": "Short",
-          "size": 552272.0,
-          "entryPx": "0.342488",
+          "size": 560816.0,
+          "entryPx": "0.3377",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "168713.57328",
-          "unrealizedPnl": "20433.394129",
-          "returnOnEquity": "0.5401459619",
-          "liquidationPx": "67.4875976751"
+          "positionValue": "163029.2112",
+          "unrealizedPnl": "26358.830028",
+          "returnOnEquity": "0.6958947845",
+          "liquidationPx": "71.9540941345"
         },
         {
           "coin": "ONDO",
-          "direction": "Short",
-          "size": 140107.0,
-          "entryPx": "0.337923",
+          "direction": "Long",
+          "size": 105401.0,
+          "entryPx": "0.310899",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "46487.5026",
-          "unrealizedPnl": "857.986415",
-          "returnOnEquity": "0.1812181969",
-          "liquidationPx": "266.1075823521"
+          "positionValue": "32689.06614",
+          "unrealizedPnl": "-80.005548",
+          "returnOnEquity": "-0.0244149571",
+          "liquidationPx": null
         },
         {
           "coin": "STRK",
@@ -1002,33 +993,33 @@
           "entryPx": "0.18052",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "2.604744",
-          "unrealizedPnl": "-4.417484",
-          "returnOnEquity": "-1.8872147131",
+          "positionValue": "2.461981",
+          "unrealizedPnl": "-4.560247",
+          "returnOnEquity": "-1.948205185",
           "liquidationPx": null
         },
         {
           "coin": "TAO",
           "direction": "Short",
-          "size": 3801.329,
-          "entryPx": "259.233",
+          "size": 3768.346,
+          "entryPx": "259.141",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "866474.93226",
-          "unrealizedPnl": "118955.689153",
-          "returnOnEquity": "0.6035721164",
-          "liquidationPx": "9988.4203398883"
+          "positionValue": "824853.2559399999",
+          "unrealizedPnl": "151680.558154",
+          "returnOnEquity": "0.7766272707",
+          "liquidationPx": "10884.0407172966"
         },
         {
           "coin": "kFLOKI",
           "direction": "Long",
-          "size": 228296.0,
-          "entryPx": "0.041576",
+          "size": 22716.0,
+          "entryPx": "0.039273",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "9199.643912",
-          "unrealizedPnl": "-292.140313",
-          "returnOnEquity": "-0.1538911474",
+          "positionValue": "881.3808",
+          "unrealizedPnl": "-10.74953",
+          "returnOnEquity": "-0.0602464104",
           "liquidationPx": null
         },
         {
@@ -1038,45 +1029,45 @@
           "entryPx": "1.1562",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "5.4009",
-          "unrealizedPnl": "-5.0049",
-          "returnOnEquity": "-2.4048607507",
+          "positionValue": "5.09148",
+          "unrealizedPnl": "-5.31432",
+          "returnOnEquity": "-2.5535374503",
           "liquidationPx": null
         },
         {
           "coin": "ENA",
           "direction": "Short",
-          "size": 10584862.0,
-          "entryPx": "0.223151",
+          "size": 10547271.0,
+          "entryPx": "0.223104",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1739727.9183199999",
-          "unrealizedPnl": "622300.361429",
-          "returnOnEquity": "1.3173008274",
-          "liquidationPx": "3.7480448262"
+          "positionValue": "1639573.2769500001",
+          "unrealizedPnl": "713573.612846",
+          "returnOnEquity": "1.5162113677",
+          "liquidationPx": "4.0450383965"
         },
         {
           "coin": "POPCAT",
           "direction": "Long",
-          "size": 549175.0,
-          "entryPx": "0.072278",
+          "size": 939225.0,
+          "entryPx": "0.069447",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "39512.0429",
-          "unrealizedPnl": "-181.293197",
-          "returnOnEquity": "-0.0137020378",
+          "positionValue": "63397.6875",
+          "unrealizedPnl": "-1829.277028",
+          "returnOnEquity": "-0.0841343932",
           "liquidationPx": null
         },
         {
           "coin": "EIGEN",
           "direction": "Long",
-          "size": 585109.67,
-          "entryPx": "0.3278",
+          "size": 388362.76,
+          "entryPx": "0.3159",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "186181.896994",
-          "unrealizedPnl": "-5640.795077",
-          "returnOnEquity": "-0.1470314856",
+          "positionValue": "114683.523028",
+          "unrealizedPnl": "-8004.476405",
+          "returnOnEquity": "-0.3262126875",
           "liquidationPx": null
         },
         {
@@ -1086,9 +1077,9 @@
           "entryPx": "0.002621",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "1.238556",
-          "unrealizedPnl": "-0.997157",
-          "returnOnEquity": "-1.3380389164",
+          "positionValue": "1.18567",
+          "unrealizedPnl": "-1.050043",
+          "returnOnEquity": "-1.4090041969",
           "liquidationPx": null
         },
         {
@@ -1098,9 +1089,9 @@
           "entryPx": "0.008052",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.466389",
-          "unrealizedPnl": "-4.952958",
-          "returnOnEquity": "-2.7418200016",
+          "positionValue": "0.43745",
+          "unrealizedPnl": "-4.981897",
+          "returnOnEquity": "-2.7578398283",
           "liquidationPx": null
         },
         {
@@ -1110,9 +1101,9 @@
           "entryPx": "0.046428",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "7.037316",
-          "unrealizedPnl": "-3.826836",
-          "returnOnEquity": "-1.0567330059",
+          "positionValue": "6.684444",
+          "unrealizedPnl": "-4.179708",
+          "returnOnEquity": "-1.1541742052",
           "liquidationPx": null
         },
         {
@@ -1122,9 +1113,9 @@
           "entryPx": "0.094647",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "16.42235",
-          "unrealizedPnl": "-6.766165",
-          "returnOnEquity": "-0.8753684744",
+          "positionValue": "15.289715",
+          "unrealizedPnl": "-7.8988",
+          "returnOnEquity": "-1.0219024375",
           "liquidationPx": null
         },
         {
@@ -1134,9 +1125,9 @@
           "entryPx": "1.292",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.81888",
-          "unrealizedPnl": "-3.057123",
-          "returnOnEquity": "-2.366192441",
+          "positionValue": "0.74841",
+          "unrealizedPnl": "-3.127593",
+          "returnOnEquity": "-2.4207357425",
           "liquidationPx": null
         },
         {
@@ -1146,9 +1137,9 @@
           "entryPx": "0.087038",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "9.60619",
-          "unrealizedPnl": "-0.925496",
-          "returnOnEquity": "-0.2636318629",
+          "positionValue": "9.077904",
+          "unrealizedPnl": "-1.453782",
+          "returnOnEquity": "-0.4141166001",
           "liquidationPx": null
         },
         {
@@ -1158,10 +1149,10 @@
           "entryPx": "0.17553",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "3.471429",
-          "unrealizedPnl": "5.322624",
-          "returnOnEquity": "1.8157579901",
-          "liquidationPx": "740574.8591092904"
+          "positionValue": "3.289566",
+          "unrealizedPnl": "5.504487",
+          "returnOnEquity": "1.8777986669",
+          "liquidationPx": "802195.2362173108"
         },
         {
           "coin": "XLM",
@@ -1170,10 +1161,10 @@
           "entryPx": "0.30042",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "0.61539",
-          "unrealizedPnl": "0.28587",
-          "returnOnEquity": "1.5859463418",
-          "liquidationPx": "12367599.1951124221"
+          "positionValue": "0.59178",
+          "unrealizedPnl": "0.30948",
+          "returnOnEquity": "1.7169296318",
+          "liquidationPx": "13396659.5455672722"
         },
         {
           "coin": "CHILLGUY",
@@ -1182,22 +1173,22 @@
           "entryPx": "0.05289",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "9.620243",
-          "unrealizedPnl": "-24.599587",
-          "returnOnEquity": "-2.1566080545",
+          "positionValue": "9.066411",
+          "unrealizedPnl": "-25.153419",
+          "returnOnEquity": "-2.2051616563",
           "liquidationPx": null
         },
         {
           "coin": "HYPE",
           "direction": "Short",
-          "size": 117784.93,
-          "entryPx": "32.9248",
+          "size": 87039.35,
+          "entryPx": "32.9538",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "4047090.1948000002",
-          "unrealizedPnl": "-169043.002124",
-          "returnOnEquity": "-0.1307691684",
-          "liquidationPx": "355.5210282726"
+          "positionValue": "2818856.3890999998",
+          "unrealizedPnl": "49422.837491",
+          "returnOnEquity": "0.051692496",
+          "liquidationPx": "503.1034297389"
         },
         {
           "coin": "ME",
@@ -1206,34 +1197,34 @@
           "entryPx": "1.5",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.417795",
-          "unrealizedPnl": "-2.732205",
-          "returnOnEquity": "-2.6021",
+          "positionValue": "0.390054",
+          "unrealizedPnl": "-2.759946",
+          "returnOnEquity": "-2.62852",
           "liquidationPx": null
         },
         {
           "coin": "VIRTUAL",
           "direction": "Short",
-          "size": 590304.1,
-          "entryPx": "0.83346",
+          "size": 380933.2,
+          "entryPx": "0.81965",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "474380.180842",
-          "unrealizedPnl": "17615.805061",
-          "returnOnEquity": "0.1790238698",
-          "liquidationPx": "63.6573202707"
+          "positionValue": "292690.02422",
+          "unrealizedPnl": "19543.132255",
+          "returnOnEquity": "0.3129573501",
+          "liquidationPx": "106.2723544945"
         },
         {
           "coin": "PENGU",
           "direction": "Short",
-          "size": 12100582.0,
-          "entryPx": "0.010115",
+          "size": 5997730.0,
+          "entryPx": "0.009775",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "116274.492438",
-          "unrealizedPnl": "6126.752335",
-          "returnOnEquity": "0.2502732855",
-          "liquidationPx": "3.0758083754"
+          "positionValue": "54597.33619",
+          "unrealizedPnl": "4032.975607",
+          "returnOnEquity": "0.343932642",
+          "liquidationPx": "6.7099678347"
         },
         {
           "coin": "USUAL",
@@ -1242,105 +1233,105 @@
           "entryPx": "0.15174",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.403383",
-          "unrealizedPnl": "-2.282415",
-          "returnOnEquity": "-2.5494266509",
+          "positionValue": "0.384621",
+          "unrealizedPnl": "-2.301177",
+          "returnOnEquity": "-2.5703835508",
           "liquidationPx": null
         },
         {
           "coin": "FARTCOIN",
           "direction": "Short",
-          "size": 7494935.8,
-          "entryPx": "0.31941",
+          "size": 7270793.6,
+          "entryPx": "0.31866",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "2167610.3827180001",
-          "unrealizedPnl": "226414.265607",
-          "returnOnEquity": "0.2837242287",
-          "liquidationPx": "5.3477403392"
+          "positionValue": "1931849.8595199999",
+          "unrealizedPnl": "385093.002837",
+          "returnOnEquity": "0.4986221401",
+          "liquidationPx": "5.9062476284"
         },
         {
           "coin": "AIXBT",
           "direction": "Short",
-          "size": 2898.0,
-          "entryPx": "0.028763",
+          "size": 6982.0,
+          "entryPx": "0.027496",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "83.15811",
-          "unrealizedPnl": "0.199815",
-          "returnOnEquity": "0.0071912179",
-          "liquidationPx": "12071.3320570059"
+          "positionValue": "193.841266",
+          "unrealizedPnl": "-1.860508",
+          "returnOnEquity": "-0.0290733512",
+          "liquidationPx": "5427.327658578"
         },
         {
           "coin": "GRIFFAIN",
           "direction": "Short",
-          "size": 2446821.0,
-          "entryPx": "0.014303",
+          "size": 1896210.0,
+          "entryPx": "0.013909",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "34341.132735",
-          "unrealizedPnl": "656.559383",
-          "returnOnEquity": "0.0562802296",
-          "liquidationPx": "14.3112137242"
+          "positionValue": "24732.26703",
+          "unrealizedPnl": "1643.550937",
+          "returnOnEquity": "0.1869383849",
+          "liquidationPx": "19.9968042242"
         },
         {
           "coin": "SPX",
           "direction": "Short",
-          "size": 1194922.4,
-          "entryPx": "0.40154",
+          "size": 1084848.9,
+          "entryPx": "0.39739",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "434653.023",
-          "unrealizedPnl": "45163.669514",
-          "returnOnEquity": "0.4706346217",
-          "liquidationPx": "31.4141319913"
+          "positionValue": "367329.83754",
+          "unrealizedPnl": "63783.357269",
+          "returnOnEquity": "0.7397518568",
+          "liquidationPx": "37.3852136297"
         },
         {
           "coin": "MORPHO",
           "direction": "Short",
-          "size": 91158.6,
-          "entryPx": "1.21931",
+          "size": 98321.5,
+          "entryPx": "1.21649",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "110912.66862",
-          "unrealizedPnl": "238.456237",
-          "returnOnEquity": "0.0107266677",
-          "liquidationPx": "408.2303769317"
+          "positionValue": "118467.57535",
+          "unrealizedPnl": "1139.954918",
+          "returnOnEquity": "0.0476539778",
+          "liquidationPx": "409.9657309975"
         },
         {
           "coin": "TRUMP",
           "direction": "Long",
-          "size": 109396.4,
-          "entryPx": "4.92508",
+          "size": 107628.0,
+          "entryPx": "4.91713",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "508397.88972",
-          "unrealizedPnl": "-30389.044787",
-          "returnOnEquity": "-0.5640271291",
+          "positionValue": "488900.19",
+          "unrealizedPnl": "-40320.897505",
+          "returnOnEquity": "-0.7618913618",
           "liquidationPx": null
         },
         {
           "coin": "MELANIA",
           "direction": "Long",
-          "size": 1138366.2,
-          "entryPx": "0.15513",
+          "size": 1150979.1,
+          "entryPx": "0.15505",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "173430.09057",
-          "unrealizedPnl": "-3175.518477",
-          "returnOnEquity": "-0.0539425417",
+          "positionValue": "169803.946623",
+          "unrealizedPnl": "-8656.264569",
+          "returnOnEquity": "-0.1455158746",
           "liquidationPx": null
         },
         {
           "coin": "BERA",
           "direction": "Long",
-          "size": 148742.0,
-          "entryPx": "0.63988",
+          "size": 152418.5,
+          "entryPx": "0.63238",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "86929.28706",
-          "unrealizedPnl": "-8248.686447",
-          "returnOnEquity": "-0.43332959",
+          "positionValue": "86040.24325",
+          "unrealizedPnl": "-10347.094175",
+          "returnOnEquity": "-0.536745513",
           "liquidationPx": null
         },
         {
@@ -1350,9 +1341,9 @@
           "entryPx": "0.074235",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.549441",
-          "unrealizedPnl": "-2.494194",
-          "returnOnEquity": "-2.4584360477",
+          "positionValue": "0.53218",
+          "unrealizedPnl": "-2.511455",
+          "returnOnEquity": "-2.4754495858",
           "liquidationPx": null
         },
         {
@@ -1362,58 +1353,58 @@
           "entryPx": "1.141",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.7827",
-          "unrealizedPnl": "-6.0633",
-          "returnOnEquity": "-2.6570113935",
+          "positionValue": "0.74652",
+          "unrealizedPnl": "-6.09948",
+          "returnOnEquity": "-2.6728659071",
           "liquidationPx": null
         },
         {
           "coin": "IP",
           "direction": "Short",
-          "size": 72421.1,
-          "entryPx": "2.19",
+          "size": 77107.9,
+          "entryPx": "2.11978",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "145349.1477",
-          "unrealizedPnl": "13253.487889",
-          "returnOnEquity": "0.2506923263",
-          "liquidationPx": "485.051819025"
+          "positionValue": "147198.9811",
+          "unrealizedPnl": "16252.825659",
+          "returnOnEquity": "0.2983049129",
+          "liquidationPx": "493.3425349676"
         },
         {
           "coin": "KAITO",
           "direction": "Short",
-          "size": 156322.0,
-          "entryPx": "0.409771",
+          "size": 164823.0,
+          "entryPx": "0.408103",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "63890.36462",
-          "unrealizedPnl": "165.888456",
-          "returnOnEquity": "0.0129486543",
-          "liquidationPx": "237.7572404049"
+          "positionValue": "63577.17579",
+          "unrealizedPnl": "3687.609206",
+          "returnOnEquity": "0.2741114244",
+          "liquidationPx": "244.2229253242"
         },
         {
           "coin": "PAXG",
           "direction": "Short",
-          "size": 219.952,
-          "entryPx": "5534.329",
+          "size": 334.593,
+          "entryPx": "5350.141",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1224956.6784000001",
-          "unrealizedPnl": "-7669.865776",
-          "returnOnEquity": "-0.0315039385",
-          "liquidationPx": "174621.9058507889"
+          "positionValue": "1793251.1835",
+          "unrealizedPnl": "-3131.194579",
+          "returnOnEquity": "-0.0087457673",
+          "liquidationPx": "125639.4528497417"
         },
         {
           "coin": "ZORA",
           "direction": "Short",
-          "size": 7519749.0,
-          "entryPx": "0.031369",
+          "size": 6658068.0,
+          "entryPx": "0.031295",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "211899.007071",
-          "unrealizedPnl": "23991.845103",
-          "returnOnEquity": "0.305122198",
-          "liquidationPx": "4.6802807049"
+          "positionValue": "180333.77178",
+          "unrealizedPnl": "28031.500958",
+          "returnOnEquity": "0.4035917395",
+          "liquidationPx": "5.7184368863"
         },
         {
           "coin": "SOPH",
@@ -1422,22 +1413,22 @@
           "entryPx": "0.053636",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "1.358",
-          "unrealizedPnl": "-4.649326",
-          "returnOnEquity": "-2.321828048",
+          "positionValue": "1.31712",
+          "unrealizedPnl": "-4.690206",
+          "returnOnEquity": "-2.3422431211",
           "liquidationPx": null
         },
         {
           "coin": "PUMP",
-          "direction": "Short",
-          "size": 207523019.0,
-          "entryPx": "0.002993",
+          "direction": "Long",
+          "size": 69304977.0,
+          "entryPx": "0.002844",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "627549.609456",
-          "unrealizedPnl": "-6387.858702",
-          "returnOnEquity": "-0.030851185",
-          "liquidationPx": "0.1860560467"
+          "positionValue": "199875.553668",
+          "unrealizedPnl": "2737.675147",
+          "returnOnEquity": "0.0416613261",
+          "liquidationPx": null
         },
         {
           "coin": "YZY",
@@ -1446,70 +1437,70 @@
           "entryPx": "0.373138",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "0.66746",
-          "unrealizedPnl": "-0.078817",
-          "returnOnEquity": "-0.3168407977",
+          "positionValue": "0.6658",
+          "unrealizedPnl": "-0.080477",
+          "returnOnEquity": "-0.3235139231",
           "liquidationPx": null
         },
         {
           "coin": "XPL",
           "direction": "Short",
-          "size": 8473392.0,
-          "entryPx": "0.136594",
+          "size": 4347089.0,
+          "entryPx": "0.133644",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1172802.1867200001",
-          "unrealizedPnl": "-15386.335501",
-          "returnOnEquity": "-0.0664684844",
-          "liquidationPx": "4.5269537397"
+          "positionValue": "553297.48792",
+          "unrealizedPnl": "27665.733888",
+          "returnOnEquity": "0.238102283",
+          "liquidationPx": "9.3981257994"
         },
         {
           "coin": "WLFI",
           "direction": "Short",
-          "size": 2243453.0,
-          "entryPx": "0.16287",
+          "size": 1665821.0,
+          "entryPx": "0.159771",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "360724.80787",
-          "unrealizedPnl": "4668.227904",
-          "returnOnEquity": "0.0638795413",
-          "liquidationPx": "16.6990446325"
+          "positionValue": "261950.35225",
+          "unrealizedPnl": "4200.415785",
+          "returnOnEquity": "0.0789104577",
+          "liquidationPx": "24.2834784753"
         },
         {
           "coin": "ASTER",
           "direction": "Short",
-          "size": 2660157.0,
-          "entryPx": "0.656684",
+          "size": 2562004.0,
+          "entryPx": "0.653494",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "1719419.07852",
-          "unrealizedPnl": "27465.837472",
-          "returnOnEquity": "0.0471682546",
-          "liquidationPx": "14.5939566907"
+          "positionValue": "1575145.67924",
+          "unrealizedPnl": "99110.152127",
+          "returnOnEquity": "0.1775896197",
+          "liquidationPx": "16.3017402487"
         },
         {
           "coin": "AVNT",
           "direction": "Short",
-          "size": 172238.0,
-          "entryPx": "0.293816",
+          "size": 156281.0,
+          "entryPx": "0.28181",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "49881.84718",
-          "unrealizedPnl": "724.458697",
-          "returnOnEquity": "0.0715779076",
-          "liquidationPx": "215.705470437"
+          "positionValue": "43774.3081",
+          "unrealizedPnl": "267.262149",
+          "returnOnEquity": "0.0303420323",
+          "liquidationPx": "257.4449379836"
         },
         {
           "coin": "STBL",
           "direction": "Short",
-          "size": 366922.0,
-          "entryPx": "0.04027",
+          "size": 406919.0,
+          "entryPx": "0.039252",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "14473.972134",
-          "unrealizedPnl": "302.209907",
-          "returnOnEquity": "0.0613575089",
-          "liquidationPx": "95.380247342"
+          "positionValue": "15251.731039",
+          "unrealizedPnl": "720.968122",
+          "returnOnEquity": "0.1354125777",
+          "liquidationPx": "93.1602102678"
         },
         {
           "coin": "0G",
@@ -1518,116 +1509,116 @@
           "entryPx": "1.8125",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "2.28873",
-          "unrealizedPnl": "-3.14877",
-          "returnOnEquity": "-1.7372524138",
+          "positionValue": "2.18265",
+          "unrealizedPnl": "-3.25485",
+          "returnOnEquity": "-1.7957793103",
           "liquidationPx": null
         },
         {
           "coin": "2Z",
           "direction": "Long",
-          "size": 286881.0,
-          "entryPx": "0.120554",
+          "size": 483238.0,
+          "entryPx": "0.119315",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "34643.74956",
-          "unrealizedPnl": "59.010787",
-          "returnOnEquity": "0.0051188",
+          "positionValue": "59699.22252",
+          "unrealizedPnl": "2041.223129",
+          "returnOnEquity": "0.1062067614",
           "liquidationPx": null
         },
         {
           "coin": "ZEC",
           "direction": "Short",
-          "size": 864.01,
-          "entryPx": "368.256",
+          "size": 663.8,
+          "entryPx": "360.5044",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "314300.9177",
-          "unrealizedPnl": "3876.030147",
-          "returnOnEquity": "0.0609099775",
-          "liquidationPx": "44341.9664024585"
+          "positionValue": "232416.294",
+          "unrealizedPnl": "6886.553969",
+          "returnOnEquity": "0.1438878398",
+          "liquidationPx": "62249.0522311129"
         },
         {
           "coin": "MON",
           "direction": "Short",
-          "size": 8997240.0,
-          "entryPx": "0.02036",
+          "size": 6830137.0,
+          "entryPx": "0.020077",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "183147.81744",
-          "unrealizedPnl": "39.73986",
-          "returnOnEquity": "0.0006508061",
-          "liquidationPx": "4.1441536279"
+          "positionValue": "135509.91808",
+          "unrealizedPnl": "1621.271034",
+          "returnOnEquity": "0.0354683215",
+          "liquidationPx": "5.904052578"
         },
         {
           "coin": "MET",
           "direction": "Short",
-          "size": 223773.0,
-          "entryPx": "0.258839",
+          "size": 214883.0,
+          "entryPx": "0.258723",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "59208.09807",
-          "unrealizedPnl": "-1286.822523",
-          "returnOnEquity": "-0.0666502513",
-          "liquidationPx": "156.5955018754"
+          "positionValue": "56004.95629",
+          "unrealizedPnl": "-409.62133",
+          "returnOnEquity": "-0.0221037249",
+          "liquidationPx": "176.6050028491"
         },
         {
           "coin": "LIT",
           "direction": "Short",
-          "size": 98592.0,
-          "entryPx": "1.856078",
+          "size": 63922.0,
+          "entryPx": "1.680154",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "187827.6192",
-          "unrealizedPnl": "-4833.101908",
-          "returnOnEquity": "-0.0792335527",
-          "liquidationPx": "378.2317489162"
+          "positionValue": "103419.4038",
+          "unrealizedPnl": "3979.417825",
+          "returnOnEquity": "0.1111581421",
+          "liquidationPx": "630.3525773399"
         }
       ]
     },
     {
       "address": "0x880ac484a1743862989a441d6d867238c7aa311c",
       "displayName": "x.com/SilkBtc",
-      "accountValue": 53608551.686761,
-      "pnl": 2772792.868998,
-      "roi": 0.1119080168,
-      "volume": 59383997.64,
+      "accountValue": 51769613.108975,
+      "pnl": 6691549.199189,
+      "roi": 0.2702489546,
+      "volume": 65531193.47,
       "positions": [
         {
           "coin": "BTC",
           "direction": "Short",
-          "size": 54.90231,
-          "entryPx": "88514.4",
+          "size": 81.7393,
+          "entryPx": "87190.1",
           "leverage": 11,
           "leverageType": "cross",
-          "positionValue": "4833654.2747099996",
-          "unrealizedPnl": "25992.843842",
-          "returnOnEquity": "0.0588358116",
-          "liquidationPx": "369175.7178537301"
+          "positionValue": "6878852.5307999998",
+          "unrealizedPnl": "248005.346352",
+          "returnOnEquity": "0.3827856339",
+          "liquidationPx": "276808.5995287306"
         },
         {
           "coin": "ETH",
           "direction": "Short",
-          "size": 18942.9861,
-          "entryPx": "3072.58",
+          "size": 19805.8537,
+          "entryPx": "3061.94",
           "leverage": 12,
           "leverageType": "cross",
-          "positionValue": "55588192.7104500011",
-          "unrealizedPnl": "2615668.384021",
-          "returnOnEquity": "0.5392772922",
-          "liquidationPx": "3743.3193226067"
+          "positionValue": "55454409.7746300027",
+          "unrealizedPnl": "5190099.2281109998",
+          "returnOnEquity": "1.0269881274",
+          "liquidationPx": "3589.1363529719"
         },
         {
           "coin": "SOL",
-          "direction": "Long",
-          "size": 55.46,
-          "entryPx": "123.04",
+          "direction": "Short",
+          "size": 97.08,
+          "entryPx": "118.0698",
           "leverage": 11,
           "leverageType": "cross",
-          "positionValue": "6819.9162",
-          "unrealizedPnl": "-3.8822",
-          "returnOnEquity": "-0.0062581274",
-          "liquidationPx": null
+          "positionValue": "11303.9952",
+          "unrealizedPnl": "158.2274",
+          "returnOnEquity": "0.1518467631",
+          "liquidationPx": "160347.6773653814"
         },
         {
           "coin": "AVAX",
@@ -1636,22 +1627,22 @@
           "entryPx": "17.7663",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "5619.7592",
-          "unrealizedPnl": "-2994.778571",
-          "returnOnEquity": "-3.4764239831",
+          "positionValue": "5331.74048",
+          "unrealizedPnl": "-3282.797291",
+          "returnOnEquity": "-3.8107642897",
           "liquidationPx": null
         },
         {
           "coin": "BNB",
           "direction": "Short",
-          "size": 2.0,
-          "entryPx": "895.54",
+          "size": 7.0,
+          "entryPx": "879.611",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1779.34",
-          "unrealizedPnl": "11.74",
-          "returnOnEquity": "0.0327735221",
-          "liquidationPx": "7172613.8892095443"
+          "positionValue": "6026.44",
+          "unrealizedPnl": "130.84",
+          "returnOnEquity": "0.1062482135",
+          "liquidationPx": "2090968.5063009087"
         },
         {
           "coin": "LTC",
@@ -1660,34 +1651,34 @@
           "entryPx": "68.0141",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "27400.44472",
-          "unrealizedPnl": "-183.381157",
-          "returnOnEquity": "-0.0664814076",
+          "positionValue": "26432.373",
+          "unrealizedPnl": "-1151.452877",
+          "returnOnEquity": "-0.4174376978",
           "liquidationPx": null
         },
         {
           "coin": "DOGE",
           "direction": "Long",
-          "size": 957747.0,
+          "size": 937747.0,
           "entryPx": "0.119793",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "115829.92218",
-          "unrealizedPnl": "1098.44413",
-          "returnOnEquity": "0.0957404322",
+          "positionValue": "108441.06308",
+          "unrealizedPnl": "-3894.553055",
+          "returnOnEquity": "-0.3466890724",
           "liquidationPx": null
         },
         {
           "coin": "kPEPE",
           "direction": "Short",
-          "size": 16699628.0,
+          "size": 12499628.0,
           "entryPx": "0.004989",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "80642.503612",
-          "unrealizedPnl": "2688.125352",
-          "returnOnEquity": "0.3225855109",
-          "liquidationPx": "0.8960882173"
+          "positionValue": "58360.763132",
+          "unrealizedPnl": "4011.995292",
+          "returnOnEquity": "0.6432287738",
+          "liquidationPx": "1.2194959903"
         },
         {
           "coin": "LINK",
@@ -1696,10 +1687,10 @@
           "entryPx": "13.86787",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "10625.4697",
-          "unrealizedPnl": "2087.212032",
-          "returnOnEquity": "1.641834568",
-          "liquidationPx": "16247.7613722576"
+          "positionValue": "10052.5322",
+          "unrealizedPnl": "2660.149532",
+          "returnOnEquity": "2.0925164242",
+          "liquidationPx": "16575.6932426634"
         },
         {
           "coin": "SNX",
@@ -1708,33 +1699,33 @@
           "entryPx": "0.77465",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "23303.23345",
-          "unrealizedPnl": "21214.749523",
-          "returnOnEquity": "1.4296301027",
-          "liquidationPx": "233.4978462006"
+          "positionValue": "22047.559835",
+          "unrealizedPnl": "22470.423138",
+          "returnOnEquity": "1.5142480614",
+          "liquidationPx": "238.1928777082"
         },
         {
           "coin": "XRP",
           "direction": "Short",
-          "size": 21327.0,
-          "entryPx": "1.907986",
+          "size": 26727.0,
+          "entryPx": "1.883864",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "40020.1155",
-          "unrealizedPnl": "671.504",
-          "returnOnEquity": "0.1650226775",
-          "liquidationPx": "716.7784735323"
+          "positionValue": "47817.2757",
+          "unrealizedPnl": "2532.7838",
+          "returnOnEquity": "0.503034917",
+          "liquidationPx": "583.7941332409"
         },
         {
           "coin": "BCH",
           "direction": "Long",
           "size": 12.657,
-          "entryPx": "583.931",
+          "entryPx": "569.365",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "7296.00108",
-          "unrealizedPnl": "-94.822085",
-          "returnOnEquity": "-0.1282970555",
+          "positionValue": "7017.16737",
+          "unrealizedPnl": "-189.297437",
+          "returnOnEquity": "-0.2626772517",
           "liquidationPx": null
         },
         {
@@ -1744,9 +1735,9 @@
           "entryPx": "0.72369",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1092.07189",
-          "unrealizedPnl": "-546.580206",
-          "returnOnEquity": "-3.3355475963",
+          "positionValue": "1075.633072",
+          "unrealizedPnl": "-563.019024",
+          "returnOnEquity": "-3.435866743",
           "liquidationPx": null
         },
         {
@@ -1756,9 +1747,9 @@
           "entryPx": "0.36779",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "600.89883",
-          "unrealizedPnl": "-122.5441",
-          "returnOnEquity": "-0.8469507056",
+          "positionValue": "571.72822",
+          "unrealizedPnl": "-151.71471",
+          "returnOnEquity": "-1.0485603197",
           "liquidationPx": null
         },
         {
@@ -1768,10 +1759,10 @@
           "entryPx": "339.595",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "3211.21872",
-          "unrealizedPnl": "1573.00624",
-          "returnOnEquity": "1.6439509567",
-          "liquidationPx": "1008686.6056123199"
+          "positionValue": "3083.72232",
+          "unrealizedPnl": "1700.50264",
+          "returnOnEquity": "1.7771976174",
+          "liquidationPx": "1029084.8324214676"
         },
         {
           "coin": "ENA",
@@ -1780,9 +1771,9 @@
           "entryPx": "0.32806",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "74.61944",
-          "unrealizedPnl": "-74.3198",
-          "returnOnEquity": "-4.9899408645",
+          "positionValue": "70.5743",
+          "unrealizedPnl": "-78.36494",
+          "returnOnEquity": "-5.2615375236",
           "liquidationPx": null
         },
         {
@@ -1792,22 +1783,22 @@
           "entryPx": "1.2154",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "850.363436",
-          "unrealizedPnl": "-354.584124",
-          "returnOnEquity": "-1.471367451",
+          "positionValue": "829.35567",
+          "unrealizedPnl": "-375.59189",
+          "returnOnEquity": "-1.5585403982",
           "liquidationPx": null
         },
         {
           "coin": "HYPE",
           "direction": "Short",
-          "size": 870210.41,
-          "entryPx": "26.891",
+          "size": 811028.68,
+          "entryPx": "26.9348",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "29900429.6876000017",
-          "unrealizedPnl": "-6499522.5509339999",
-          "returnOnEquity": "-1.3887330335",
-          "liquidationPx": "50.6861270124"
+          "positionValue": "26261108.6583999991",
+          "unrealizedPnl": "-4416182.2878249995",
+          "returnOnEquity": "-1.0108027404",
+          "liquidationPx": "50.2519492347"
         },
         {
           "coin": "PENGU",
@@ -1816,46 +1807,46 @@
           "entryPx": "0.014637",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "318.269298",
-          "unrealizedPnl": "-166.537416",
-          "returnOnEquity": "-1.7175650748",
+          "positionValue": "301.443322",
+          "unrealizedPnl": "-183.363392",
+          "returnOnEquity": "-1.8910979026",
           "liquidationPx": null
         },
         {
           "coin": "PAXG",
           "direction": "Short",
-          "size": 174.879,
-          "entryPx": "5264.105",
+          "size": 296.85,
+          "entryPx": "5272.476",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "973936.1268",
-          "unrealizedPnl": "-53354.643264",
-          "returnOnEquity": "-0.2897877277",
-          "liquidationPx": "87335.7900054583"
+          "positionValue": "1590967.575",
+          "unrealizedPnl": "-25833.024557",
+          "returnOnEquity": "-0.0825265296",
+          "liquidationPx": "54403.4963794601"
         },
         {
           "coin": "PUMP",
           "direction": "Short",
-          "size": 634463545.0,
-          "entryPx": "0.002942",
+          "size": 522020949.0,
+          "entryPx": "0.002941",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1918617.7600799999",
-          "unrealizedPnl": "-51736.162603",
-          "returnOnEquity": "-0.1385630526",
-          "liquidationPx": "0.0264827117"
+          "positionValue": "1504986.3959669999",
+          "unrealizedPnl": "30373.603392",
+          "returnOnEquity": "0.0989136209",
+          "liquidationPx": "0.0319716515"
         },
         {
           "coin": "XPL",
           "direction": "Short",
-          "size": 1649607.0,
-          "entryPx": "0.139599",
+          "size": 1065305.0,
+          "entryPx": "0.139499",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "228322.10487",
-          "unrealizedPnl": "1961.753508",
-          "returnOnEquity": "0.042594247",
-          "liquidationPx": "8.8272377269"
+          "positionValue": "135549.4082",
+          "unrealizedPnl": "13060.597849",
+          "returnOnEquity": "0.4394252512",
+          "liquidationPx": "13.8555766702"
         },
         {
           "coin": "ASTER",
@@ -1864,196 +1855,90 @@
           "entryPx": "1.06933",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "3043.70924",
-          "unrealizedPnl": "1991.76586",
-          "returnOnEquity": "1.1866402795",
-          "liquidationPx": "3017.6702888907"
+          "positionValue": "2894.57521",
+          "unrealizedPnl": "2140.89989",
+          "returnOnEquity": "1.2754903048",
+          "liquidationPx": "3078.6914359829"
         },
         {
           "coin": "ZEC",
-          "direction": "Long",
-          "size": 2.11,
-          "entryPx": "352.48",
+          "direction": "Short",
+          "size": 117.89,
+          "entryPx": "355.5093",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "767.5547",
-          "unrealizedPnl": "23.8219",
-          "returnOnEquity": "0.3203018611",
-          "liquidationPx": null
+          "positionValue": "41273.289",
+          "unrealizedPnl": "637.7041",
+          "returnOnEquity": "0.1521567619",
+          "liquidationPx": "129155.6429921921"
         },
         {
           "coin": "XMR",
           "direction": "Short",
-          "size": 21524.217,
-          "entryPx": "522.698",
+          "size": 21977.054,
+          "entryPx": "520.627",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "10074840.2511899993",
-          "unrealizedPnl": "1175844.8637379999",
-          "returnOnEquity": "0.5225658934",
-          "liquidationPx": "1128.1249363141"
-        }
-      ]
-    },
-    {
-      "address": "0x5b5d51203a0f9079f8aeb098a6523a13f298c060",
-      "displayName": null,
-      "accountValue": 78464081.508369,
-      "pnl": 2733304.148152,
-      "roi": 0.088545248,
-      "volume": 9412724.79,
-      "positions": [
-        {
-          "coin": "BTC",
-          "direction": "Short",
-          "size": 131.31825,
-          "entryPx": "91332.8",
-          "leverage": 10,
-          "leverageType": "cross",
-          "positionValue": "11561390.0482500009",
-          "unrealizedPnl": "432279.887676",
-          "returnOnEquity": "0.360423365",
-          "liquidationPx": "297572.5825153947"
-        },
-        {
-          "coin": "ETH",
-          "direction": "Short",
-          "size": 15309.2219,
-          "entryPx": "3208.07",
-          "leverage": 10,
-          "leverageType": "cross",
-          "positionValue": "44924911.665550001",
-          "unrealizedPnl": "4188177.9467859999",
-          "returnOnEquity": "0.8527620599",
-          "liquidationPx": "4718.5882037794"
-        },
-        {
-          "coin": "SOL",
-          "direction": "Short",
-          "size": 5984.85,
-          "entryPx": "131.54",
-          "leverage": 10,
-          "leverageType": "cross",
-          "positionValue": "735957.0045",
-          "unrealizedPnl": "51290.323703",
-          "returnOnEquity": "0.6515147383",
-          "liquidationPx": "4664.3984474554"
-        },
-        {
-          "coin": "SUI",
-          "direction": "Short",
-          "size": 0.5,
-          "entryPx": "3.67761",
-          "leverage": 10,
-          "leverageType": "cross",
-          "positionValue": "0.68225",
-          "unrealizedPnl": "1.156556",
-          "returnOnEquity": "6.2897119109",
-          "liquidationPx": "52471387.2021999955"
-        },
-        {
-          "coin": "XRP",
-          "direction": "Short",
-          "size": 5849745.0,
-          "entryPx": "1.901026",
-          "leverage": 20,
-          "leverageType": "cross",
-          "positionValue": "10977046.4924999997",
-          "unrealizedPnl": "143472.795021",
-          "returnOnEquity": "0.2580325456",
-          "liquidationPx": "6.5228167273"
-        },
-        {
-          "coin": "HYPE",
-          "direction": "Short",
-          "size": 1255743.27,
-          "entryPx": "42.0004",
-          "leverage": 5,
-          "leverageType": "cross",
-          "positionValue": "43147338.7572000027",
-          "unrealizedPnl": "9594406.9353209995",
-          "returnOnEquity": "0.9095647868",
-          "liquidationPx": "54.5286145933"
-        },
-        {
-          "coin": "FARTCOIN",
-          "direction": "Short",
-          "size": 3637827.7,
-          "entryPx": "0.6115",
-          "leverage": 10,
-          "leverageType": "cross",
-          "positionValue": "1052096.1491169999",
-          "unrealizedPnl": "1172447.5759759999",
-          "returnOnEquity": "5.270508117",
-          "liquidationPx": "7.4879760102"
-        },
-        {
-          "coin": "PUMP",
-          "direction": "Short",
-          "size": 2022108.0,
-          "entryPx": "0.006521",
-          "leverage": 5,
-          "leverageType": "cross",
-          "positionValue": "6114.854592",
-          "unrealizedPnl": "7072.484362",
-          "returnOnEquity": "2.6815434056",
-          "liquidationPx": "12.9773137026"
+          "positionValue": "10010987.6380800009",
+          "unrealizedPnl": "1430874.0737010001",
+          "returnOnEquity": "0.625280269",
+          "liquidationPx": "1115.0562325102"
         }
       ]
     },
     {
       "address": "0x35d1151ef1aab579cbb3109e69fa82f94ff5acb1",
       "displayName": null,
-      "accountValue": 24938455.111688,
-      "pnl": 2730462.25727,
-      "roi": 0.1229495288,
-      "volume": 2427356.89,
+      "accountValue": 22518014.344225,
+      "pnl": 6681010.582443,
+      "roi": 0.2924707273,
+      "volume": 2849240.22,
       "positions": [
         {
           "coin": "BTC",
           "direction": "Short",
-          "size": 88.0683,
-          "entryPx": "92260.8",
+          "size": 88.0931,
+          "entryPx": "92097.4",
           "leverage": 40,
           "leverageType": "cross",
-          "positionValue": "7753621.2002999997",
-          "unrealizedPnl": "371638.977266",
-          "returnOnEquity": "1.8295486872",
-          "liquidationPx": "345083.6038447657"
+          "positionValue": "7416381.9028000003",
+          "unrealizedPnl": "696770.807682",
+          "returnOnEquity": "3.4352653403",
+          "liquidationPx": "311611.0744280682"
         },
         {
           "coin": "ETH",
           "direction": "Short",
-          "size": 2285.37,
-          "entryPx": "3075.06",
+          "size": 2324.69,
+          "entryPx": "3071.11",
           "leverage": 25,
           "leverageType": "cross",
-          "positionValue": "6706418.2649999997",
-          "unrealizedPnl": "321241.205426",
-          "returnOnEquity": "1.142774514",
-          "liquidationPx": "12766.9798063483"
+          "positionValue": "6510526.8140000002",
+          "unrealizedPnl": "628865.008426",
+          "returnOnEquity": "2.202095865",
+          "liquidationPx": "11355.3285214132"
         },
         {
           "coin": "SOL",
           "direction": "Short",
-          "size": 558086.6,
-          "entryPx": "147.5967",
+          "size": 566913.0,
+          "entryPx": "147.1385",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "68627909.202000007",
-          "unrealizedPnl": "13743851.9130310006",
-          "returnOnEquity": "3.3370300032",
-          "liquidationPx": "162.1422338305"
+          "positionValue": "66017018.8500000015",
+          "unrealizedPnl": "17397726.0141309984",
+          "returnOnEquity": "4.1713790631",
+          "liquidationPx": "150.694623261"
         }
       ]
     },
     {
       "address": "0x45d26f28196d226497130c4bac709d808fed4029",
       "displayName": null,
-      "accountValue": 33753775.360153,
-      "pnl": 2685373.21273,
-      "roi": 0.0972174296,
-      "volume": 3154158.93,
+      "accountValue": 38562278.460849,
+      "pnl": 6133585.179259,
+      "roi": 0.1891406825,
+      "volume": 6185776.08,
       "positions": [
         {
           "coin": "BTC",
@@ -2062,10 +1947,10 @@
           "entryPx": "101884.6",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "36801138.0",
-          "unrealizedPnl": "5786640.8842900004",
-          "returnOnEquity": "2.7175124113",
-          "liquidationPx": "142235.603352035"
+          "positionValue": "35190584.0",
+          "unrealizedPnl": "7397194.8842900004",
+          "returnOnEquity": "3.4738580307",
+          "liquidationPx": "148437.4871120302"
         },
         {
           "coin": "ETH",
@@ -2074,10 +1959,10 @@
           "entryPx": "2952.28",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "26703950.0",
-          "unrealizedPnl": "161852.353991",
-          "returnOnEquity": "0.1204894995",
-          "liquidationPx": "5405.5742300867"
+          "positionValue": "25485460.0",
+          "unrealizedPnl": "1380342.353991",
+          "returnOnEquity": "1.0275831973",
+          "liquidationPx": "5730.1398818131"
         },
         {
           "coin": "ATOM",
@@ -2086,10 +1971,10 @@
           "entryPx": "10.1735",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "53669.82",
-          "unrealizedPnl": "196598.74346",
-          "returnOnEquity": "3.9277554628",
-          "liquidationPx": "911.8192571551"
+          "positionValue": "51967.5",
+          "unrealizedPnl": "198301.06346",
+          "returnOnEquity": "3.9617653276",
+          "liquidationPx": "1080.5177818953"
         },
         {
           "coin": "SOL",
@@ -2098,10 +1983,10 @@
           "entryPx": "175.1897",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "2020028.1899999999",
-          "unrealizedPnl": "857813.017445",
-          "returnOnEquity": "5.9615034716",
-          "liquidationPx": "1485.1836668908"
+          "positionValue": "1912924.1499999999",
+          "unrealizedPnl": "964917.057445",
+          "returnOnEquity": "6.7058394671",
+          "liquidationPx": "1731.3991650711"
         },
         {
           "coin": "AVAX",
@@ -2110,10 +1995,10 @@
           "entryPx": "49.454",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "114393.3",
-          "unrealizedPnl": "373718.09219",
-          "returnOnEquity": "7.6564099542",
-          "liquidationPx": "2278.7717533956"
+          "positionValue": "108540.39",
+          "unrealizedPnl": "379571.00219",
+          "returnOnEquity": "7.7763192637",
+          "liquidationPx": "2698.8156357268"
         },
         {
           "coin": "BNB",
@@ -2122,10 +2007,10 @@
           "entryPx": "697.602",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "907463.4",
-          "unrealizedPnl": "-195908.527297",
-          "returnOnEquity": "-2.7532455305",
-          "liquidationPx": "22305.6466607516"
+          "positionValue": "878332.2",
+          "unrealizedPnl": "-166777.327297",
+          "returnOnEquity": "-2.3438435136",
+          "liquidationPx": "26250.45564238"
         },
         {
           "coin": "OP",
@@ -2134,10 +2019,10 @@
           "entryPx": "2.26298",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "21844.575",
-          "unrealizedPnl": "151273.70916",
-          "returnOnEquity": "8.7381705459",
-          "liquidationPx": "292.7964507322"
+          "positionValue": "20215.125",
+          "unrealizedPnl": "152903.15916",
+          "returnOnEquity": "8.8322940527",
+          "liquidationPx": "347.0455563349"
         },
         {
           "coin": "LTC",
@@ -2146,10 +2031,10 @@
           "entryPx": "99.1301",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "62157.04",
-          "unrealizedPnl": "29042.657107",
-          "returnOnEquity": "3.1845124522",
-          "liquidationPx": "23717.1698573765"
+          "positionValue": "59962.84",
+          "unrealizedPnl": "31236.857107",
+          "returnOnEquity": "3.4251053565",
+          "liquidationPx": "27919.9112302263"
         },
         {
           "coin": "ARB",
@@ -2158,10 +2043,10 @@
           "entryPx": "0.96678",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "82045.58",
-          "unrealizedPnl": "400377.826214",
-          "returnOnEquity": "8.2993034968",
-          "liquidationPx": "42.2165401032"
+          "positionValue": "77978.73",
+          "unrealizedPnl": "404444.676214",
+          "returnOnEquity": "8.3836039256",
+          "liquidationPx": "49.9614990882"
         },
         {
           "coin": "SUI",
@@ -2170,10 +2055,10 @@
           "entryPx": "4.07128",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "442884.24",
-          "unrealizedPnl": "878654.05924",
-          "returnOnEquity": "6.6487218702",
-          "liquidationPx": "68.3401653942"
+          "positionValue": "423830.22",
+          "unrealizedPnl": "897708.07924",
+          "returnOnEquity": "6.7929024816",
+          "liquidationPx": "80.2022374783"
         },
         {
           "coin": "CRV",
@@ -2182,10 +2067,10 @@
           "entryPx": "0.80767",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "90215.412",
-          "unrealizedPnl": "125755.769812",
-          "returnOnEquity": "5.8228032443",
-          "liquidationPx": "82.0288392145"
+          "positionValue": "87439.8",
+          "unrealizedPnl": "128531.381812",
+          "returnOnEquity": "5.9513209463",
+          "liquidationPx": "97.174915315"
         },
         {
           "coin": "LDO",
@@ -2194,10 +2079,10 @@
           "entryPx": "1.71733",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1508.94",
-          "unrealizedPnl": "3643.06506",
-          "returnOnEquity": "7.0711597088",
-          "liquidationPx": "7281.9350446556"
+          "positionValue": "1421.4",
+          "unrealizedPnl": "3730.60506",
+          "returnOnEquity": "7.2410741382",
+          "liquidationPx": "8632.8513184092"
         },
         {
           "coin": "STX",
@@ -2206,10 +2091,10 @@
           "entryPx": "2.02824",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "29773.296",
-          "unrealizedPnl": "174673.76347",
-          "returnOnEquity": "4.2718580527",
-          "liquidationPx": "222.29025002"
+          "positionValue": "28269.36",
+          "unrealizedPnl": "176177.69947",
+          "returnOnEquity": "4.3086386257",
+          "liquidationPx": "263.4626914149"
         },
         {
           "coin": "XRP",
@@ -2218,10 +2103,10 @@
           "entryPx": "2.505355",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "1709491.5",
-          "unrealizedPnl": "572887.007014",
-          "returnOnEquity": "5.0200876432",
-          "liquidationPx": "26.4397095565"
+          "positionValue": "1630052.3",
+          "unrealizedPnl": "652326.207014",
+          "returnOnEquity": "5.7161965468",
+          "liquidationPx": "30.9097938909"
         },
         {
           "coin": "AAVE",
@@ -2230,10 +2115,10 @@
           "entryPx": "218.4918",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "213211.2",
-          "unrealizedPnl": "87433.5903",
-          "returnOnEquity": "2.9082024077",
-          "liquidationPx": "16030.1652572432"
+          "positionValue": "199506.24",
+          "unrealizedPnl": "101138.5503",
+          "returnOnEquity": "3.364054644",
+          "liquidationPx": "18965.5805197875"
         },
         {
           "coin": "WLD",
@@ -2242,10 +2127,10 @@
           "entryPx": "1.33196",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "140624.1",
-          "unrealizedPnl": "247777.96828",
-          "returnOnEquity": "6.379419383",
-          "liquidationPx": "75.394102517"
+          "positionValue": "138480.84",
+          "unrealizedPnl": "249921.22828",
+          "returnOnEquity": "6.4346008606",
+          "liquidationPx": "89.2853682964"
         },
         {
           "coin": "TRX",
@@ -2254,10 +2139,10 @@
           "entryPx": "0.316884",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "54101.52",
-          "unrealizedPnl": "4205.251706",
-          "returnOnEquity": "0.7212286983",
-          "liquidationPx": "119.0130310542"
+          "positionValue": "53915.68",
+          "unrealizedPnl": "4391.091706",
+          "returnOnEquity": "0.7531014971",
+          "liquidationPx": "141.0383056262"
         },
         {
           "coin": "kSHIB",
@@ -2266,10 +2151,10 @@
           "entryPx": "0.014903",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "143577.525",
-          "unrealizedPnl": "140711.87009",
-          "returnOnEquity": "4.9495996868",
-          "liquidationPx": "1.1074594259"
+          "positionValue": "139209.35",
+          "unrealizedPnl": "145080.04509",
+          "returnOnEquity": "5.1032520944",
+          "liquidationPx": "1.3100516621"
         },
         {
           "coin": "UNI",
@@ -2278,10 +2163,10 @@
           "entryPx": "8.05042",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "614573.4",
-          "unrealizedPnl": "440032.48507",
-          "returnOnEquity": "4.1724827379",
-          "liquidationPx": "170.5885709484"
+          "positionValue": "569457.0",
+          "unrealizedPnl": "485148.88507",
+          "returnOnEquity": "4.6002861537",
+          "liquidationPx": "199.7912493615"
         },
         {
           "coin": "SEI",
@@ -2290,10 +2175,10 @@
           "entryPx": "0.589749",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "14586.6",
-          "unrealizedPnl": "67978.394726",
-          "returnOnEquity": "8.2333190902",
-          "liquidationPx": "150.0118632056"
+          "positionValue": "13897.8",
+          "unrealizedPnl": "68667.194726",
+          "returnOnEquity": "8.3167442757",
+          "liquidationPx": "177.6401420324"
         },
         {
           "coin": "ZRO",
@@ -2302,10 +2187,10 @@
           "entryPx": "6.35825",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "55824.34",
-          "unrealizedPnl": "126021.727201",
-          "returnOnEquity": "3.4650660622",
-          "liquidationPx": "731.020908381"
+          "positionValue": "56035.98",
+          "unrealizedPnl": "125810.087201",
+          "returnOnEquity": "3.4592468547",
+          "liquidationPx": "866.2946205019"
         },
         {
           "coin": "TIA",
@@ -2314,10 +2199,10 @@
           "entryPx": "8.54819",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1793.832",
-          "unrealizedPnl": "33253.749475",
-          "returnOnEquity": "9.4881723861",
-          "liquidationPx": "5328.3146404797"
+          "positionValue": "1679.975",
+          "unrealizedPnl": "33367.606475",
+          "returnOnEquity": "9.5206587932",
+          "liquidationPx": "6316.783543958"
         },
         {
           "coin": "PENDLE",
@@ -2326,10 +2211,10 @@
           "entryPx": "4.678465",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "127077.9",
-          "unrealizedPnl": "174683.122",
-          "returnOnEquity": "2.8943950554",
-          "liquidationPx": "325.247310693"
+          "positionValue": "122898.3",
+          "unrealizedPnl": "178862.722",
+          "returnOnEquity": "2.9636485324",
+          "liquidationPx": "385.1610614939"
         },
         {
           "coin": "FIL",
@@ -2338,10 +2223,10 @@
           "entryPx": "7.90791",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "24145.24",
-          "unrealizedPnl": "130849.8735",
-          "returnOnEquity": "4.2210967348",
-          "liquidationPx": "1115.7368078554"
+          "positionValue": "23106.44",
+          "unrealizedPnl": "131888.6735",
+          "returnOnEquity": "4.2546074686",
+          "liquidationPx": "1322.4611732259"
         },
         {
           "coin": "kBONK",
@@ -2350,10 +2235,10 @@
           "entryPx": "0.024837",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "20061.02",
-          "unrealizedPnl": "39052.317873",
-          "returnOnEquity": "6.6063462626",
-          "liquidationPx": "9.1510981951"
+          "positionValue": "19351.78",
+          "unrealizedPnl": "39761.557873",
+          "returnOnEquity": "6.7263259534",
+          "liquidationPx": "10.7762828694"
         },
         {
           "coin": "WIF",
@@ -2362,10 +2247,10 @@
           "entryPx": "0.83086",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "157943.5",
-          "unrealizedPnl": "271611.55261",
-          "returnOnEquity": "3.1615453125",
-          "liquidationPx": "42.557523586"
+          "positionValue": "150291.9",
+          "unrealizedPnl": "279263.15261",
+          "returnOnEquity": "3.2506095658",
+          "liquidationPx": "50.381865484"
         },
         {
           "coin": "ONDO",
@@ -2374,10 +2259,10 @@
           "entryPx": "0.924076",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "54755.25",
-          "unrealizedPnl": "97717.339107",
-          "returnOnEquity": "6.4088463165",
-          "liquidationPx": "132.7215239028"
+          "positionValue": "51173.1",
+          "unrealizedPnl": "101299.489107",
+          "returnOnEquity": "6.643783627",
+          "liquidationPx": "157.2624585165"
         },
         {
           "coin": "STRK",
@@ -2386,10 +2271,10 @@
           "entryPx": "0.14811",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "21433.896",
-          "unrealizedPnl": "25978.350049",
-          "returnOnEquity": "2.7396244867",
-          "liquidationPx": "65.2071463158"
+          "positionValue": "20259.129",
+          "unrealizedPnl": "27153.117049",
+          "returnOnEquity": "2.863513049",
+          "liquidationPx": "77.289126196"
         },
         {
           "coin": "TAO",
@@ -2398,10 +2283,10 @@
           "entryPx": "605.58",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "524216.0",
-          "unrealizedPnl": "868618.33811",
-          "returnOnEquity": "3.1181681638",
-          "liquidationPx": "9293.7346259545"
+          "positionValue": "503447.0",
+          "unrealizedPnl": "889387.33811",
+          "returnOnEquity": "3.1927247691",
+          "liquidationPx": "10966.7118114581"
         },
         {
           "coin": "kFLOKI",
@@ -2410,10 +2295,10 @@
           "entryPx": "0.230632",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "107789.125",
-          "unrealizedPnl": "509151.83333",
-          "returnOnEquity": "4.1264226864",
-          "liquidationPx": "7.8352010335"
+          "positionValue": "103790.0",
+          "unrealizedPnl": "513150.95833",
+          "returnOnEquity": "4.158833608",
+          "liquidationPx": "9.2799178192"
         },
         {
           "coin": "ENA",
@@ -2422,10 +2307,10 @@
           "entryPx": "0.799541",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "657440.0",
-          "unrealizedPnl": "2540727.6828720002",
-          "returnOnEquity": "7.9443229211",
-          "liquidationPx": "5.5970052281"
+          "positionValue": "621800.0",
+          "unrealizedPnl": "2576367.6828720002",
+          "returnOnEquity": "8.0557617309",
+          "liquidationPx": "6.5556543598"
         },
         {
           "coin": "HBAR",
@@ -2434,10 +2319,10 @@
           "entryPx": "0.221647",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "59191.28",
-          "unrealizedPnl": "66704.252746",
-          "returnOnEquity": "2.6491906143",
-          "liquidationPx": "36.8143748586"
+          "positionValue": "56959.04",
+          "unrealizedPnl": "68936.492746",
+          "returnOnEquity": "2.7378450705",
+          "liquidationPx": "43.6213894478"
         },
         {
           "coin": "POPCAT",
@@ -2446,10 +2331,10 @@
           "entryPx": "1.252606",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "57054.764",
-          "unrealizedPnl": "936262.24",
-          "returnOnEquity": "2.8276841217",
-          "liquidationPx": "27.6183492534"
+          "positionValue": "53527.5",
+          "unrealizedPnl": "939789.504",
+          "returnOnEquity": "2.8383371075",
+          "liquidationPx": "32.7246658956"
         },
         {
           "coin": "ZK",
@@ -2458,10 +2343,10 @@
           "entryPx": "0.146848",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1317.85",
-          "unrealizedPnl": "6024.599037",
-          "returnOnEquity": "4.1025814457",
-          "liquidationPx": "417.0538297939"
+          "positionValue": "1247.05",
+          "unrealizedPnl": "6095.399037",
+          "returnOnEquity": "4.150794242",
+          "liquidationPx": "494.4247443271"
         },
         {
           "coin": "BLAST",
@@ -2470,10 +2355,10 @@
           "entryPx": "0.005373",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "58905.0",
-          "unrealizedPnl": "397804.777089",
-          "returnOnEquity": "2.6130693739",
-          "liquidationPx": "0.2319855479"
+          "positionValue": "55250.0",
+          "unrealizedPnl": "401459.777089",
+          "returnOnEquity": "2.6370780563",
+          "liquidationPx": "0.2748549329"
         },
         {
           "coin": "POL",
@@ -2482,10 +2367,10 @@
           "entryPx": "0.719196",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "20544.48",
-          "unrealizedPnl": "106034.10158",
-          "returnOnEquity": "4.1884693388",
-          "liquidationPx": "124.2320492839"
+          "positionValue": "19548.32",
+          "unrealizedPnl": "107030.26158",
+          "returnOnEquity": "4.227818808",
+          "liquidationPx": "147.2538686092"
         },
         {
           "coin": "kNEIRO",
@@ -2494,10 +2379,10 @@
           "entryPx": "0.37989",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "6458.725",
-          "unrealizedPnl": "16145.020645",
-          "returnOnEquity": "2.142789195",
-          "liquidationPx": "350.5518044487"
+          "positionValue": "6089.825",
+          "unrealizedPnl": "16513.920645",
+          "returnOnEquity": "2.191750107",
+          "liquidationPx": "415.5643696026"
         },
         {
           "coin": "GOAT",
@@ -2506,10 +2391,10 @@
           "entryPx": "0.950773",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "44619.27",
-          "unrealizedPnl": "1365948.7537700001",
-          "returnOnEquity": "2.9051036123",
-          "liquidationPx": "14.0846541586"
+          "positionValue": "42380.5176",
+          "unrealizedPnl": "1368187.5061699999",
+          "returnOnEquity": "2.9098649972",
+          "liquidationPx": "16.6907324642"
         },
         {
           "coin": "MOODENG",
@@ -2518,10 +2403,10 @@
           "entryPx": "0.471415",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "253067.52",
-          "unrealizedPnl": "1526998.8708490001",
-          "returnOnEquity": "2.5734976156",
-          "liquidationPx": "5.5890998834"
+          "positionValue": "235648.832",
+          "unrealizedPnl": "1544417.5588489999",
+          "returnOnEquity": "2.60285386",
+          "liquidationPx": "6.6090145652"
         },
         {
           "coin": "GRASS",
@@ -2530,10 +2415,10 @@
           "entryPx": "3.54576",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "5458.2",
-          "unrealizedPnl": "65457.078",
-          "returnOnEquity": "2.7690963011",
-          "liquidationPx": "1042.8415919848"
+          "positionValue": "4989.4",
+          "unrealizedPnl": "65925.878",
+          "returnOnEquity": "2.7889284168",
+          "liquidationPx": "1236.2489783177"
         },
         {
           "coin": "PNUT",
@@ -2542,10 +2427,10 @@
           "entryPx": "0.8693",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "101980.16",
-          "unrealizedPnl": "1177630.4934950001",
-          "returnOnEquity": "2.7609112747",
-          "liquidationPx": "14.2346153531"
+          "positionValue": "96651.52",
+          "unrealizedPnl": "1182959.133495",
+          "returnOnEquity": "2.7734040747",
+          "liquidationPx": "16.8591315804"
         },
         {
           "coin": "CHILLGUY",
@@ -2554,10 +2439,10 @@
           "entryPx": "0.416789",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "23433.544",
-          "unrealizedPnl": "633426.64147",
-          "returnOnEquity": "2.8929747402",
-          "liquidationPx": "12.4894036285"
+          "positionValue": "22084.488",
+          "unrealizedPnl": "634775.69747",
+          "returnOnEquity": "2.8991361245",
+          "liquidationPx": "14.8029846369"
         },
         {
           "coin": "HYPE",
@@ -2566,10 +2451,10 @@
           "entryPx": "28.1822",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "17009685.0",
-          "unrealizedPnl": "-3059463.894508",
-          "returnOnEquity": "-2.1931293213",
-          "liquidationPx": "76.7615798965"
+          "positionValue": "16031070.0",
+          "unrealizedPnl": "-2080848.894508",
+          "returnOnEquity": "-1.491624311",
+          "liquidationPx": "82.6898304554"
         },
         {
           "coin": "VIRTUAL",
@@ -2578,10 +2463,10 @@
           "entryPx": "2.33415",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "129786.245",
-          "unrealizedPnl": "247179.830802",
-          "returnOnEquity": "3.2785421112",
-          "liquidationPx": "129.9143026916"
+          "positionValue": "124088.525",
+          "unrealizedPnl": "252877.550802",
+          "returnOnEquity": "3.3541154899",
+          "liquidationPx": "153.8333045904"
         },
         {
           "coin": "PENGU",
@@ -2590,10 +2475,10 @@
           "entryPx": "0.028834",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "67188.744",
-          "unrealizedPnl": "134448.871257",
-          "returnOnEquity": "3.3339233626",
-          "liquidationPx": "2.9913574122"
+          "positionValue": "63657.279",
+          "unrealizedPnl": "137980.336257",
+          "returnOnEquity": "3.4214929611",
+          "liquidationPx": "3.5440651288"
         },
         {
           "coin": "FARTCOIN",
@@ -2602,10 +2487,10 @@
           "entryPx": "1.26443",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "913990.363",
-          "unrealizedPnl": "3081995.3247179999",
-          "returnOnEquity": "7.7127286371",
-          "liquidationPx": "7.1616333561"
+          "positionValue": "839691.71",
+          "unrealizedPnl": "3156293.9777179998",
+          "returnOnEquity": "7.8986618681",
+          "liquidationPx": "8.3633215139"
         },
         {
           "coin": "SPX",
@@ -2614,10 +2499,10 @@
           "entryPx": "1.67172",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "50743.125",
-          "unrealizedPnl": "182462.20317",
-          "returnOnEquity": "3.9120504793",
-          "liquidationPx": "149.8359624709"
+          "positionValue": "47234.7",
+          "unrealizedPnl": "185970.62817",
+          "returnOnEquity": "3.9872722812",
+          "liquidationPx": "177.5428305832"
         },
         {
           "coin": "S",
@@ -2626,10 +2511,10 @@
           "entryPx": "0.560036",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "6441.6",
-          "unrealizedPnl": "49562.04408",
-          "returnOnEquity": "4.4248945666",
-          "liquidationPx": "208.578152397"
+          "positionValue": "6081.0",
+          "unrealizedPnl": "49922.64408",
+          "returnOnEquity": "4.4570889002",
+          "liquidationPx": "247.2607116635"
         },
         {
           "coin": "VINE",
@@ -2638,10 +2523,10 @@
           "entryPx": "0.060569",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "25032.14",
-          "unrealizedPnl": "34326.089506",
-          "returnOnEquity": "1.7348608504",
-          "liquidationPx": "21.3024548772"
+          "positionValue": "24081.54",
+          "unrealizedPnl": "35276.689506",
+          "returnOnEquity": "1.7829047362",
+          "liquidationPx": "25.2490527616"
         },
         {
           "coin": "KAITO",
@@ -2650,10 +2535,10 @@
           "entryPx": "2.234412",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "40871.0",
-          "unrealizedPnl": "182570.2365",
-          "returnOnEquity": "4.0854194901",
-          "liquidationPx": "208.922446397"
+          "positionValue": "38573.0",
+          "unrealizedPnl": "184868.2365",
+          "returnOnEquity": "4.1368424064",
+          "liquidationPx": "247.5856316635"
         },
         {
           "coin": "NIL",
@@ -2662,10 +2547,10 @@
           "entryPx": "0.539216",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "17764.767",
-          "unrealizedPnl": "132676.57961",
-          "returnOnEquity": "2.6457469825",
-          "liquidationPx": "70.5291445934"
+          "positionValue": "16770.69",
+          "unrealizedPnl": "133670.65661",
+          "returnOnEquity": "2.6655701964",
+          "liquidationPx": "83.5992472749"
         },
         {
           "coin": "INIT",
@@ -2674,10 +2559,10 @@
           "entryPx": "0.810288",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "31639.65",
-          "unrealizedPnl": "251961.165004",
-          "returnOnEquity": "2.6653079082",
-          "liquidationPx": "56.2614463559"
+          "positionValue": "30579.15",
+          "unrealizedPnl": "253021.665004",
+          "returnOnEquity": "2.6765261412",
+          "liquidationPx": "66.6799955706"
         },
         {
           "coin": "RESOLV",
@@ -2686,10 +2571,10 @@
           "entryPx": "0.183844",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "25247.1",
-          "unrealizedPnl": "29906.113837",
-          "returnOnEquity": "1.626711034",
-          "liquidationPx": "65.6170455819"
+          "positionValue": "24750.0",
+          "unrealizedPnl": "30403.213837",
+          "returnOnEquity": "1.6537502562",
+          "liquidationPx": "77.7738976657"
         },
         {
           "coin": "SYRUP",
@@ -2698,10 +2583,10 @@
           "entryPx": "0.549201",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "10601.1",
-          "unrealizedPnl": "5874.950848",
-          "returnOnEquity": "1.0697255493",
-          "liquidationPx": "655.682255819"
+          "positionValue": "10258.5",
+          "unrealizedPnl": "6217.550848",
+          "returnOnEquity": "1.1321070028",
+          "liquidationPx": "777.2559266568"
         },
         {
           "coin": "PUMP",
@@ -2710,10 +2595,10 @@
           "entryPx": "0.006366",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "858846.24",
-          "unrealizedPnl": "949223.720584",
-          "returnOnEquity": "1.5749784156",
-          "liquidationPx": "0.0795052017"
+          "positionValue": "819084.84",
+          "unrealizedPnl": "988985.120584",
+          "returnOnEquity": "1.6409516371",
+          "liquidationPx": "0.0929929748"
         },
         {
           "coin": "XPL",
@@ -2722,10 +2607,10 @@
           "entryPx": "0.857",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "1929435.3999999999",
-          "unrealizedPnl": "10017149.7688790001",
-          "returnOnEquity": "4.192474095",
-          "liquidationPx": "1.6376951985"
+          "positionValue": "1774283.2",
+          "unrealizedPnl": "10172301.9688789994",
+          "returnOnEquity": "4.2574098896",
+          "liquidationPx": "1.9045902271"
         },
         {
           "coin": "APEX",
@@ -2734,10 +2619,10 @@
           "entryPx": "2.45974",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "90588.4078",
-          "unrealizedPnl": "560677.106423",
-          "returnOnEquity": "2.5827120929",
-          "liquidationPx": "74.5947614245"
+          "positionValue": "86103.204",
+          "unrealizedPnl": "565162.310223",
+          "returnOnEquity": "2.6033728082",
+          "liquidationPx": "88.3541281252"
         },
         {
           "coin": "2Z",
@@ -2746,22 +2631,10 @@
           "entryPx": "0.623842",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "255769.68",
-          "unrealizedPnl": "1065528.0831899999",
-          "returnOnEquity": "2.4192762136",
-          "liquidationPx": "9.403038836"
-        },
-        {
-          "coin": "MON",
-          "direction": "Long",
-          "size": 9000000.0,
-          "entryPx": "0.02007",
-          "leverage": 5,
-          "leverageType": "cross",
-          "positionValue": "183195.0",
-          "unrealizedPnl": "2559.867624",
-          "returnOnEquity": "0.0708574127",
-          "liquidationPx": null
+          "positionValue": "261657.72",
+          "unrealizedPnl": "1059640.0431900001",
+          "returnOnEquity": "2.4059074481",
+          "liquidationPx": "11.1279872614"
         },
         {
           "coin": "LIT",
@@ -2770,137 +2643,239 @@
           "entryPx": "1.888811",
           "leverage": 3,
           "leverageType": "cross",
-          "positionValue": "495170.0",
-          "unrealizedPnl": "-4079.0399",
-          "returnOnEquity": "-0.0249182345",
-          "liquidationPx": "82.1020909219"
+          "positionValue": "420654.0",
+          "unrealizedPnl": "70436.9601",
+          "returnOnEquity": "0.4302886786",
+          "liquidationPx": "96.6947852552"
         }
       ]
     },
     {
       "address": "0x0ddf9bae2af4b874b96d287a5ad42eb47138a902",
       "displayName": "Penision Fund",
-      "accountValue": 28857578.276491,
-      "pnl": 2385874.388529,
-      "roi": 0.0901292338,
-      "volume": 0.0,
+      "accountValue": 31730434.852888,
+      "pnl": 4788571.251081,
+      "roi": 0.1799008886,
+      "volume": 70459666.26,
+      "positions": []
+    },
+    {
+      "address": "0x5b5d51203a0f9079f8aeb098a6523a13f298c060",
+      "displayName": null,
+      "accountValue": 81486109.783724,
+      "pnl": 4596606.425978,
+      "roi": 0.0597819758,
+      "volume": 8981618.16,
       "positions": [
+        {
+          "coin": "BTC",
+          "direction": "Short",
+          "size": 131.31825,
+          "entryPx": "91332.8",
+          "leverage": 10,
+          "leverageType": "cross",
+          "positionValue": "11051218.6469999999",
+          "unrealizedPnl": "942451.288926",
+          "returnOnEquity": "0.7857905828",
+          "liquidationPx": "339807.4216267882"
+        },
         {
           "coin": "ETH",
           "direction": "Short",
-          "size": 25000.0,
-          "entryPx": "2927.33",
-          "leverage": 3,
+          "size": 15309.2219,
+          "entryPx": "3208.07",
+          "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "73362500.0",
-          "unrealizedPnl": "-179218.87533",
-          "returnOnEquity": "-0.0073467139",
-          "liquidationPx": "3994.7609421207"
+          "positionValue": "42864290.3978099972",
+          "unrealizedPnl": "6248799.2145260004",
+          "returnOnEquity": "1.2723286732",
+          "liquidationPx": "4976.682517119"
+        },
+        {
+          "coin": "SOL",
+          "direction": "Short",
+          "size": 5984.85,
+          "entryPx": "131.54",
+          "leverage": 10,
+          "leverageType": "cross",
+          "positionValue": "696875.934",
+          "unrealizedPnl": "90371.394203",
+          "returnOnEquity": "1.1479415803",
+          "liquidationPx": "5657.4788489909"
+        },
+        {
+          "coin": "SUI",
+          "direction": "Short",
+          "size": 0.5,
+          "entryPx": "3.67761",
+          "leverage": 10,
+          "leverageType": "cross",
+          "positionValue": "0.6527",
+          "unrealizedPnl": "1.186106",
+          "returnOnEquity": "6.4504140187",
+          "liquidationPx": "63620625.8174599931"
+        },
+        {
+          "coin": "XRP",
+          "direction": "Short",
+          "size": 5849745.0,
+          "entryPx": "1.901026",
+          "leverage": 20,
+          "leverageType": "cross",
+          "positionValue": "10465778.7795000002",
+          "unrealizedPnl": "654740.508021",
+          "returnOnEquity": "1.1775358526",
+          "liquidationPx": "7.4433471257"
+        },
+        {
+          "coin": "HYPE",
+          "direction": "Short",
+          "size": 1255743.27,
+          "entryPx": "42.0004",
+          "leverage": 5,
+          "leverageType": "cross",
+          "positionValue": "40660967.0825999975",
+          "unrealizedPnl": "12080778.6099210009",
+          "returnOnEquity": "1.1452767112",
+          "liquidationPx": "56.9879131896"
+        },
+        {
+          "coin": "FARTCOIN",
+          "direction": "Short",
+          "size": 3637827.7,
+          "entryPx": "0.6115",
+          "leverage": 10,
+          "leverageType": "cross",
+          "positionValue": "966243.415397",
+          "unrealizedPnl": "1258300.3096960001",
+          "returnOnEquity": "5.6564422425",
+          "liquidationPx": "8.9978520824"
+        },
+        {
+          "coin": "PUMP",
+          "direction": "Short",
+          "size": 2022108.0,
+          "entryPx": "0.006521",
+          "leverage": 5,
+          "leverageType": "cross",
+          "positionValue": "5829.737364",
+          "unrealizedPnl": "7357.60159",
+          "returnOnEquity": "2.7896460445",
+          "liquidationPx": "15.7340147188"
         }
       ]
+    },
+    {
+      "address": "0x87f9cd15f5050a9283b8896300f7c8cf69ece2cf",
+      "displayName": null,
+      "accountValue": 78524569.47843501,
+      "pnl": 4556496.842916001,
+      "roi": 0.0745158187,
+      "volume": 2102575849.19,
+      "positions": []
     }
   ],
   "weekly": [
     {
       "address": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
       "displayName": null,
-      "accountValue": 775168505.05176,
-      "pnl": 274986263.083199,
-      "roi": 0.5497721431,
+      "accountValue": 733994109.326987,
+      "pnl": 240895488.564367,
+      "roi": 0.4885340953,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x24de6b77e8bc31c40aa452926daa6bbab7a71b0f",
       "displayName": null,
-      "accountValue": 2024480057.531254,
-      "pnl": 167379306.268308,
-      "roi": 0.0901288606,
+      "accountValue": 1956616765.071072,
+      "pnl": 158894268.792605,
+      "roi": 0.0883864273,
       "volume": 0.0,
       "positions": []
     },
     {
-      "address": "0xe6111266afdcdf0b1fe8505028cc1f7419d798a7",
+      "address": "0xa822a9ceb6d6cb5b565bd10098abcfa9cf18d748",
       "displayName": null,
-      "accountValue": 1347290685.106055,
-      "pnl": 83821082.829853,
-      "roi": 0.0663270816,
+      "accountValue": 15343787095.059767,
+      "pnl": 99948883.363432,
+      "roi": 0.0065530735,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x488d2a9b70cc18ef66057a48ab3d59da1c59fe08",
       "displayName": null,
-      "accountValue": 101605603.222636,
-      "pnl": 35260817.864922,
-      "roi": 0.5314783622,
+      "accountValue": 98380365.005232,
+      "pnl": 33255553.570641,
+      "roi": 0.510643376,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0xe44bd27c9f10fa2f89fdb3ab4b4f0e460da29ea8",
       "displayName": null,
-      "accountValue": 91690599.50905,
-      "pnl": 32145917.220486,
-      "roi": 0.5397790025,
+      "accountValue": 86990348.162362,
+      "pnl": 29741440.079858,
+      "roi": 0.519417498,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x179f3d11483dafe616d56b32c4ce2562faabbbbb",
       "displayName": null,
-      "accountValue": 81316484.684988,
-      "pnl": 28313002.2572,
-      "roi": 0.5341724913,
+      "accountValue": 79106876.261036,
+      "pnl": 28085418.333096,
+      "roi": 0.5504628733,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x05cafe987297448f21a3c7ae0ae815fddecac655",
       "displayName": null,
-      "accountValue": 79268159.94277,
-      "pnl": 28055403.827283,
-      "roi": 0.5478206204,
+      "accountValue": 75051221.067023,
+      "pnl": 25182785.187391,
+      "roi": 0.5049844605,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x85530f0ff6496c72a619f37a60f3c1a59077737f",
       "displayName": null,
-      "accountValue": 63229140.600182,
-      "pnl": 22013785.868908,
-      "roi": 0.5341161325,
+      "accountValue": 61511018.595146,
+      "pnl": 21836880.385986,
+      "roi": 0.5504059161,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x90b38c5728f184c87ef46479cf7b402d7b98b98a",
       "displayName": null,
-      "accountValue": 63067176.377261,
-      "pnl": 21603323.451191,
-      "roi": 0.5210158229,
+      "accountValue": 60642741.739062,
+      "pnl": 20721459.60036,
+      "roi": 0.5190579683,
       "volume": 0.0,
       "positions": []
     },
     {
       "address": "0x939f95036d2e7b6d7419ec072bf9d967352204d2",
       "displayName": null,
-      "accountValue": 46015273.55594,
-      "pnl": 18902289.946716,
-      "roi": 0.69206243,
-      "volume": 66505432.65,
+      "accountValue": 44750510.232082,
+      "pnl": 17778802.552221,
+      "roi": 0.6543130314,
+      "volume": 96528054.72,
       "positions": [
         {
           "coin": "BTC",
           "direction": "Long",
-          "size": 186.0571,
-          "entryPx": "88034.9",
+          "size": 285.62795,
+          "entryPx": "86141.7",
           "leverage": 40,
           "leverageType": "cross",
-          "positionValue": "16380653.1411000006",
-          "unrealizedPnl": "1134.35983",
-          "returnOnEquity": "0.0027701909",
-          "liquidationPx": "31289.486135916"
+          "positionValue": "24046445.8546000011",
+          "unrealizedPnl": "-558047.808254",
+          "returnOnEquity": "-0.9072290873",
+          "liquidationPx": "47370.1601975293"
         },
         {
           "coin": "SOL",
@@ -2909,10 +2884,10 @@
           "entryPx": "118.6079",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "2586860.8643999998",
-          "unrealizedPnl": "-91762.895589",
-          "returnOnEquity": "-0.7355454314",
-          "liquidationPx": "606.5441084522"
+          "positionValue": "2449702.7540000002",
+          "unrealizedPnl": "45395.214811",
+          "returnOnEquity": "0.3638752095",
+          "liquidationPx": "598.0631628041"
         },
         {
           "coin": "BNB",
@@ -2921,10 +2896,10 @@
           "entryPx": "901.47",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1300198.4351300001",
-          "unrealizedPnl": "17245.464385",
-          "returnOnEquity": "0.1309009392",
-          "liquidationPx": "7428.6947633749"
+          "positionValue": "1258459.7372900001",
+          "unrealizedPnl": "58984.162225",
+          "returnOnEquity": "0.4477166902",
+          "liquidationPx": "7375.1308744544"
         },
         {
           "coin": "DOGE",
@@ -2933,10 +2908,10 @@
           "entryPx": "0.126968",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "4728468.9444199996",
-          "unrealizedPnl": "235703.570755",
-          "returnOnEquity": "0.4748093867",
-          "liquidationPx": "0.37493252"
+          "positionValue": "4522033.3893799996",
+          "unrealizedPnl": "442139.125795",
+          "returnOnEquity": "0.8906602751",
+          "liquidationPx": "0.3686225527"
         },
         {
           "coin": "XRP",
@@ -2945,10 +2920,10 @@
           "entryPx": "1.94976",
           "leverage": 20,
           "leverageType": "cross",
-          "positionValue": "4655138.6339999996",
-          "unrealizedPnl": "181740.400549",
-          "returnOnEquity": "0.7514779644",
-          "liquidationPx": "5.9771517384"
+          "positionValue": "4438816.7107999995",
+          "unrealizedPnl": "398062.323749",
+          "returnOnEquity": "1.6459469873",
+          "liquidationPx": "5.8733231492"
         },
         {
           "coin": "UNI",
@@ -2957,10 +2932,10 @@
           "entryPx": "5.15934",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "1034228.48776",
-          "unrealizedPnl": "103061.548583",
-          "returnOnEquity": "0.906202862",
-          "liquidationPx": "49.7417691993"
+          "positionValue": "958223.1204",
+          "unrealizedPnl": "179066.915943",
+          "returnOnEquity": "1.5745052732",
+          "liquidationPx": "49.2142866704"
         },
         {
           "coin": "ADA",
@@ -2969,10 +2944,10 @@
           "entryPx": "0.37465",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "5093633.8337099999",
-          "unrealizedPnl": "409220.539696",
-          "returnOnEquity": "0.7436514069",
-          "liquidationPx": "1.0228890844"
+          "positionValue": "4859948.5651200004",
+          "unrealizedPnl": "642905.808286",
+          "returnOnEquity": "1.1683133237",
+          "liquidationPx": "1.004237429"
         },
         {
           "coin": "XLM",
@@ -2981,25 +2956,25 @@
           "entryPx": "0.215269",
           "leverage": 5,
           "leverageType": "cross",
-          "positionValue": "748441.83086",
-          "unrealizedPnl": "36996.070421",
-          "returnOnEquity": "0.2355123834",
-          "liquidationPx": "2.8031305886"
+          "positionValue": "719727.1757200001",
+          "unrealizedPnl": "65710.725561",
+          "returnOnEquity": "0.4183063069",
+          "liquidationPx": "2.7847254134"
         },
         {
           "coin": "HYPE",
           "direction": "Long",
-          "size": 255819.34,
+          "size": 109586.12,
           "entryPx": "24.6262",
           "leverage": 10,
           "leverageType": "cross",
-          "positionValue": "8789952.5223999992",
-          "unrealizedPnl": "2490089.5851750001",
-          "returnOnEquity": "3.952609144",
+          "positionValue": "3549056.08232",
+          "unrealizedPnl": "850364.359448",
+          "returnOnEquity": "3.1510244473",
           "liquidationPx": null
         }
       ]
     }
   ],
-  "lastUpdated": "2026-01-29T14:11:35.198346Z"
+  "lastUpdated": "2026-01-29T19:44:05.967551Z"
 }
